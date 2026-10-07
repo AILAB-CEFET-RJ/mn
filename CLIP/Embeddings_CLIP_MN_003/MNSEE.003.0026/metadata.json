@@ -1,0 +1,67 @@
+{
+  "codigo_acervo": "MNSEE.003.0026",
+  "descricao": "Apito/ Mimby jary. Instrumento religioso e musical. Tem o formato de uma mulher idosa. Artesão Família de Adulia Gomes. Aldeia Guaiviry - Mato Grosso do Sul, Brasil. Dimensões: A-15cm; L-6cm. Acervo do Setor de Etnologia e Etnografia, Museu Nacional/UFRJ. Coleção Guarani Kaiowá - Tekohá em litígio, doada em 2020.",
+  "titulo_colecao": "Coleção Guarani Kaiowá - Tekohá em litígio - 2020.",
+  "modelo_clip": "openai/clip-vit-base-patch32",
+  "dimensao_vetores": 512,
+  "total_imagens": 7,
+  "arquivo_embedding_descricao": "descricao_embedding.npy",
+  "imagens": [
+    {
+      "arquivo_imagem": "MN 003-10.jpg",
+      "arquivo_embedding": "MN 003-10.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-11.jpg",
+      "arquivo_embedding": "MN 003-11.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-12.jpg",
+      "arquivo_embedding": "MN 003-12.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-13.jpg",
+      "arquivo_embedding": "MN 003-13.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-14.jpg",
+      "arquivo_embedding": "MN 003-14.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-8.jpg",
+      "arquivo_embedding": "MN 003-8.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-9.jpg",
+      "arquivo_embedding": "MN 003-9.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    }
+  ]
+}

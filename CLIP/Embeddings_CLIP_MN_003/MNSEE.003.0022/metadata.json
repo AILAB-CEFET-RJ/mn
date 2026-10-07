@@ -1,0 +1,67 @@
+{
+  "codigo_acervo": "MNSEE.003.0022",
+  "descricao": "Cocar/ Jeguaká. Adorno para a cabeça utilizado pelas mulheres para acentar a sabedoria. Artesã Amalia Lima. Aldeia Aldeia Kambiy - Mato Grosso do Sul, Brasil. Dimensões: (cocar)  A-15cm; L-26cm, (cordão) A- 20cm. Acervo do Setor de Etnologia e Etnografia, Museu Nacional/UFRJ. Coleção Guarani Kaiowá - Tekohá em litígio, doada em 2020.",
+  "titulo_colecao": "Coleção Guarani Kaiowá - Tekohá em litígio - 2020.",
+  "modelo_clip": "openai/clip-vit-base-patch32",
+  "dimensao_vetores": 512,
+  "total_imagens": 7,
+  "arquivo_embedding_descricao": "descricao_embedding.npy",
+  "imagens": [
+    {
+      "arquivo_imagem": "MN 003-59.jpg",
+      "arquivo_embedding": "MN 003-59.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-60.jpg",
+      "arquivo_embedding": "MN 003-60.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-61.jpg",
+      "arquivo_embedding": "MN 003-61.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-62.jpg",
+      "arquivo_embedding": "MN 003-62.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-63.jpg",
+      "arquivo_embedding": "MN 003-63.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-64.jpg",
+      "arquivo_embedding": "MN 003-64.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-65.jpg",
+      "arquivo_embedding": "MN 003-65.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    }
+  ]
+}

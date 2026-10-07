@@ -1,0 +1,43 @@
+{
+  "codigo_acervo": "MNSEE.003.0005",
+  "descricao": "Borduna/ Tamangá. Arma contundente feita de madeira dura usada para bordoar. Artesão Maculino Fernandes. Aldeia Kurusu-Amba (Jguapiré) - Mato Grosso do Sul, Brasil. Dimensões: A-71cm; L-4cm. Acervo do Setor de Etnologia e Etnografia, Museu Nacional/UFRJ. Coleção Guarani Kaiowá - Tekohá em litígio, doada em 2020.",
+  "titulo_colecao": "Coleção Guarani Kaiowá - Tekohá em litígio - 2020.",
+  "modelo_clip": "openai/clip-vit-base-patch32",
+  "dimensao_vetores": 512,
+  "total_imagens": 4,
+  "arquivo_embedding_descricao": "descricao_embedding.npy",
+  "imagens": [
+    {
+      "arquivo_imagem": "MN 003-102.jpg",
+      "arquivo_embedding": "MN 003-102.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-103.jpg",
+      "arquivo_embedding": "MN 003-103.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-104.jpg",
+      "arquivo_embedding": "MN 003-104.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-105.jpg",
+      "arquivo_embedding": "MN 003-105.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    }
+  ]
+}

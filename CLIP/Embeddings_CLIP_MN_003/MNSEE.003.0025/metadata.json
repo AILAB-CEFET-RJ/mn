@@ -1,0 +1,75 @@
+{
+  "codigo_acervo": "MNSEE.003.0025",
+  "descricao": "Cocar/ Jeguaká. Adorno para a cabeça utilizado pelas mulheres para acentar a sabedoria. Artesã Amalia Lima. Aldeia Aldeia Kambiy - Mato Grosso do Sul, Brasil. Dimensões: (cocar)  A-15cm; L-29cm, (cordão) A- 20cm. Acervo do Setor de Etnologia e Etnografia, Museu Nacional/UFRJ. Coleção Guarani Kaiowá - Tekohá em litígio, doada em 2020.",
+  "titulo_colecao": "Coleção Guarani Kaiowá - Tekohá em litígio - 2020.",
+  "modelo_clip": "openai/clip-vit-base-patch32",
+  "dimensao_vetores": 512,
+  "total_imagens": 8,
+  "arquivo_embedding_descricao": "descricao_embedding.npy",
+  "imagens": [
+    {
+      "arquivo_imagem": "MN 003-43.jpg",
+      "arquivo_embedding": "MN 003-43.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-44.jpg",
+      "arquivo_embedding": "MN 003-44.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-45.jpg",
+      "arquivo_embedding": "MN 003-45.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-46.jpg",
+      "arquivo_embedding": "MN 003-46.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-47.jpg",
+      "arquivo_embedding": "MN 003-47.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-48.jpg",
+      "arquivo_embedding": "MN 003-48.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-49.jpg",
+      "arquivo_embedding": "MN 003-49.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-50.jpg",
+      "arquivo_embedding": "MN 003-50.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    }
+  ]
+}

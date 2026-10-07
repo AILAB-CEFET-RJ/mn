@@ -1,0 +1,35 @@
+{
+  "codigo_acervo": "MNSEE.003.0013",
+  "descricao": "Maracá/ Mbaraká. Instrumento musical e ritualístico. Artesã Neusa Conciança, Aldeia Guyra Kabiy - Mato Grosso do Sul, Brasil. Dimensões: A-20cm; L-9cm. Acervo do Setor de Etnologia e Etnografia, Museu Nacional/UFRJ. Coleção Guarani Kaiowá - Tekohá em litígio, doada em 2020.",
+  "titulo_colecao": "Coleção Guarani Kaiowá - Tekohá em litígio - 2020.",
+  "modelo_clip": "openai/clip-vit-base-patch32",
+  "dimensao_vetores": 512,
+  "total_imagens": 3,
+  "arquivo_embedding_descricao": "descricao_embedding.npy",
+  "imagens": [
+    {
+      "arquivo_imagem": "MN 003-35.jpg",
+      "arquivo_embedding": "MN 003-35.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-36.jpg",
+      "arquivo_embedding": "MN 003-36.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-37.jpg",
+      "arquivo_embedding": "MN 003-37.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    }
+  ]
+}

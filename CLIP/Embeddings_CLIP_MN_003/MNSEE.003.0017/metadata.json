@@ -1,0 +1,67 @@
+{
+  "codigo_acervo": "MNSEE.003.0017",
+  "descricao": "Crânio de macaco/ Kangá ankãgue. Crânio de macaco bugilo. Utilizado para cura e proteção. Artesã Amalia Lima (morreu em 2018 aos 112 anos). Aldeia Aldeia Kambiy - Mato Grosso do Sul, Brasil. Dimensões: A-7cm; L-7cm. Acervo do Setor de Etnologia e Etnografia, Museu Nacional/UFRJ. Coleção Guarani Kaiowá - Tekohá em litígio, doada em 2020.",
+  "titulo_colecao": "Coleção Guarani Kaiowá - Tekohá em litígio - 2020.",
+  "modelo_clip": "openai/clip-vit-base-patch32",
+  "dimensao_vetores": 512,
+  "total_imagens": 7,
+  "arquivo_embedding_descricao": "descricao_embedding.npy",
+  "imagens": [
+    {
+      "arquivo_imagem": "MN 003-1.jpg",
+      "arquivo_embedding": "MN 003-1.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-2.jpg",
+      "arquivo_embedding": "MN 003-2.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-3.jpg",
+      "arquivo_embedding": "MN 003-3.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-4.jpg",
+      "arquivo_embedding": "MN 003-4.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-5.jpg",
+      "arquivo_embedding": "MN 003-5.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-6.jpg",
+      "arquivo_embedding": "MN 003-6.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-7.jpg",
+      "arquivo_embedding": "MN 003-7.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    }
+  ]
+}

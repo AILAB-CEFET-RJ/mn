@@ -1,0 +1,43 @@
+{
+  "codigo_acervo": "MNSEE.003.0028",
+  "descricao": "Apito/ Minby-apyká. Instrumento religioso e musical. Artesão Marolino Fernandez. Aldeia Kurusu-Amba (Jguapiré) - Mato Grosso do Sul, Brasil. Dimensões: (minby-apyká)  A-12cm; L-6cm, (minby) A- 4cm; L-7cm. Acervo do Setor de Etnologia e Etnografia, Museu Nacional/UFRJ. Coleção Guarani Kaiowá - Tekohá em litígio, doada em 2020.",
+  "titulo_colecao": "Coleção Guarani Kaiowá - Tekohá em litígio - 2020.",
+  "modelo_clip": "openai/clip-vit-base-patch32",
+  "dimensao_vetores": 512,
+  "total_imagens": 4,
+  "arquivo_embedding_descricao": "descricao_embedding.npy",
+  "imagens": [
+    {
+      "arquivo_imagem": "MN 003-15.jpg",
+      "arquivo_embedding": "MN 003-15.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-16.jpg",
+      "arquivo_embedding": "MN 003-16.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-17.jpg",
+      "arquivo_embedding": "MN 003-17.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-18.jpg",
+      "arquivo_embedding": "MN 003-18.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    }
+  ]
+}

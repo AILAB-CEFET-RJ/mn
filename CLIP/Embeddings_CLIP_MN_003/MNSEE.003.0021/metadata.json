@@ -1,0 +1,43 @@
+{
+  "codigo_acervo": "MNSEE.003.0021",
+  "descricao": "Coroa/Jeguaká. Trançado flexivél com grafismo específico dos Guarani Kaiowá.  Artesão Germano Lima.  Aldeia Guyra Kabiy -  Mato grosso do Sul, Brasil.  Dimensões: A-16cm; D-26cm. Acervo do Setor de Etnologia e Etnografia, Museu Nacional/UFRJ. Coleção Guarani Kaiowá - Tekohá em litígio, doada em 2020.",
+  "titulo_colecao": "Coleção Guarani Kaiowá - Tekohá em litígio - 2020.",
+  "modelo_clip": "openai/clip-vit-base-patch32",
+  "dimensao_vetores": 512,
+  "total_imagens": 4,
+  "arquivo_embedding_descricao": "descricao_embedding.npy",
+  "imagens": [
+    {
+      "arquivo_imagem": "MN 003-79.jpg",
+      "arquivo_embedding": "MN 003-79.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-80.jpg",
+      "arquivo_embedding": "MN 003-80.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-81.jpg",
+      "arquivo_embedding": "MN 003-81.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-82.jpg",
+      "arquivo_embedding": "MN 003-82.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    }
+  ]
+}

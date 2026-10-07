@@ -1,0 +1,35 @@
+{
+  "codigo_acervo": "MNSEE.003.0003",
+  "descricao": "Borduna/Yvyra. Arma contundente feita de madeira dura usada para bordoar. Artesão Valdir Mendes. Aldeia Guaiviry - Mato Grosso do Sul, Brasil. Dimensões: A-89cm; D-5cm. Acervo do Setor de Etnologia e Etnografia, Museu Nacional/UFRJ. Coleção Guarani Kaiowá - Tekohá em litígio, doada em 2020.",
+  "titulo_colecao": "Coleção Guarani Kaiowá - Tekohá em litígio - 2020.",
+  "modelo_clip": "openai/clip-vit-base-patch32",
+  "dimensao_vetores": 512,
+  "total_imagens": 3,
+  "arquivo_embedding_descricao": "descricao_embedding.npy",
+  "imagens": [
+    {
+      "arquivo_imagem": "MN 003-93.jpg",
+      "arquivo_embedding": "MN 003-93.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-94.jpg",
+      "arquivo_embedding": "MN 003-94.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-95.jpg",
+      "arquivo_embedding": "MN 003-95.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    }
+  ]
+}

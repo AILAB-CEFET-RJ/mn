@@ -1,0 +1,27 @@
+{
+  "codigo_acervo": "MNSEE.003.0010",
+  "descricao": "Arco musical/ Guirá-paï. Arco musical.  Artesão João Souza. Aldeia Kurusu-Amba (Jguapiré) - Mato Grosso do Sul, Brasil. Dimensões: A-31cm; L- 0,6 cm; L-9cm (com corda). Acervo do Setor de Etnologia e Etnografia, Museu Nacional/UFRJ. Coleção Guarani Kaiowá - Tekohá em litígio, doada em 2020.",
+  "titulo_colecao": "Coleção Guarani Kaiowá - Tekohá em litígio - 2020.",
+  "modelo_clip": "openai/clip-vit-base-patch32",
+  "dimensao_vetores": 512,
+  "total_imagens": 2,
+  "arquivo_embedding_descricao": "descricao_embedding.npy",
+  "imagens": [
+    {
+      "arquivo_imagem": "MN 003-76.jpg",
+      "arquivo_embedding": "MN 003-76.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-77.jpg",
+      "arquivo_embedding": "MN 003-77.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    }
+  ]
+}

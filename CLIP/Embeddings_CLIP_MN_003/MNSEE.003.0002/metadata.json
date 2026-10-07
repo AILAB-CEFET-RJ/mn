@@ -1,0 +1,35 @@
+{
+  "codigo_acervo": "MNSEE.003.0002",
+  "descricao": "Abanador/Tepeká feito com fibras vegetais trançadas. Artesã Micaela Vargas, Aldeia Kurusu-Amba (Jguapiré) - Mato Grosso do Sul, Brasil. Dimensões: A-23cm; L-40cm. Acervo do Setor de Etnologia e Etnografia, Museu Nacional/UFRJ. Coleção Guarani Kaiowá - Tekohá em litígio, doada em 2020.",
+  "titulo_colecao": "Coleção Guarani Kaiowá - Tekohá em litígio - 2020.",
+  "modelo_clip": "openai/clip-vit-base-patch32",
+  "dimensao_vetores": 512,
+  "total_imagens": 3,
+  "arquivo_embedding_descricao": "descricao_embedding.npy",
+  "imagens": [
+    {
+      "arquivo_imagem": "MN 003-88.jpg",
+      "arquivo_embedding": "MN 003-88.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-89.jpg",
+      "arquivo_embedding": "MN 003-89.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-90.jpg",
+      "arquivo_embedding": "MN 003-90.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    }
+  ]
+}

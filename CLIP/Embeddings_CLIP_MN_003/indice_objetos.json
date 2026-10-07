@@ -1,0 +1,216 @@
+{
+  "modelo_clip": "openai/clip-vit-base-patch32",
+  "total_objetos": 35,
+  "objetos": [
+    {
+      "codigo_acervo": "MNSEE.003.0012",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0012",
+      "total_imagens": 2,
+      "descricao": "Maracá/ Mbaraká. Instrumento musical e ritualístico. Artesã Micaela Vargas. Aldeia Kurusu-Amba (Jguapiré) - Mato Grosso ..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0001",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0001",
+      "total_imagens": 5,
+      "descricao": "Peneira/ Yrupẽ. A peneira possui uma separação em cruz no centro, ela ajuda na delimitação de quadrantes e na divisão en..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0002",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0002",
+      "total_imagens": 3,
+      "descricao": "Abanador/Tepeká feito com fibras vegetais trançadas. Artesã Micaela Vargas, Aldeia Kurusu-Amba (Jguapiré) - Mato Grosso ..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0003",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0003",
+      "total_imagens": 3,
+      "descricao": "Borduna/Yvyra. Arma contundente feita de madeira dura usada para bordoar. Artesão Valdir Mendes. Aldeia Guaiviry - Mato ..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0004",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0004",
+      "total_imagens": 2,
+      "descricao": "Borduna/Tamangá Poxi. Talhado em secção, instrumento de ataque usado na retomada das terras indígenas Guarani Kaiowá. Ar..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0005",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0005",
+      "total_imagens": 4,
+      "descricao": "Borduna/ Tamangá. Arma contundente feita de madeira dura usada para bordoar. Artesão Maculino Fernandes. Aldeia Kurusu-A..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0006",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0006",
+      "total_imagens": 2,
+      "descricao": "Borduna/ Tamangá . Talhado em secção e em formato de flecha, feita de madeira dura usadas para bordoar. Artesão Ezequiel..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0007",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0007",
+      "total_imagens": 2,
+      "descricao": "Flecha/ Hu'y.  Foi usada na retomada de 2006 de Itay e Cambiy como arma. Artesão Ricardo (pai do Ezequiel). Aldeia Itay ..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0008",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0008",
+      "total_imagens": 2,
+      "descricao": "Arco/Guyrapa. Arco feito de peroba e a corda de fibra de caraguatá. Artesão João Souza. Aldeia Kurusu-Amba (Jguapiré) - ..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0009",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0009",
+      "total_imagens": 2,
+      "descricao": "Bodoque/Guyrapa. Arco utilizado para atirar bolas de barro endurecidas ao fogo, colocadas em um invólucro de pano entre ..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0010",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0010",
+      "total_imagens": 2,
+      "descricao": "Arco musical/ Guirá-paï. Arco musical.  Artesão João Souza. Aldeia Kurusu-Amba (Jguapiré) - Mato Grosso do Sul, Brasil. ..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0011",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0011",
+      "total_imagens": 2,
+      "descricao": "Maracá / Mbaraká. Instrumento musical e ritualístico. Artesã Odúlia Gomes. Aldeia Guaiviry - Mato Grosso do Sul, Brasil...."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0013",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0013",
+      "total_imagens": 3,
+      "descricao": "Maracá/ Mbaraká. Instrumento musical e ritualístico. Artesã Neusa Conciança, Aldeia Guyra Kabiy - Mato Grosso do Sul, Br..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0014",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0014",
+      "total_imagens": 3,
+      "descricao": "Maracá/ Mbaraká. Instrumento musical e ritualístico. Artesã Neusa Conciança. Aldeia Guyra Kabiy - Mato Grosso do Sul, Br..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0015",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0015",
+      "total_imagens": 2,
+      "descricao": "Maracá/ Mbaraká. Instrumento musical e ritualístico. Artesã Neusa Conciança. Aldeia Guyra Kabiy - Mato Grosso do Sul, Br..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0016",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0016",
+      "total_imagens": 3,
+      "descricao": "Maracá/ Mbaraká. Instrumento musical e ritualístico. Artesã Germano Lima. Aldeia Guyra Kabiy - Mato Grosso do Sul, Brasi..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0017",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0017",
+      "total_imagens": 7,
+      "descricao": "Crânio de macaco/ Kangá ankãgue. Crânio de macaco bugilo. Utilizado para cura e proteção. Artesã Amalia Lima (morreu em ..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0018",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0018",
+      "total_imagens": 2,
+      "descricao": "Taquapu. É usado por mulheres nos rituais, acompanha os Mbaraka. Artesã Adelaide. Aldeia Limão Verde - Mato Grosso do Su..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0019",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0019",
+      "total_imagens": 2,
+      "descricao": "Saia/ Kuña Kuakaha. Utilizada em rituais e também em atos políticos como assembléias e idas a Brasília. Artesão Adelaide..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0020",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0020",
+      "total_imagens": 2,
+      "descricao": "Saia/ Kuña Kuakaha. Utilizada em rituais politicos e religiosos.  Artesã Rosicleide Villalva. Aldeia Rancho Jacará  - Ma..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0021",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0021",
+      "total_imagens": 4,
+      "descricao": "Coroa/Jeguaká. Trançado flexivél com grafismo específico dos Guarani Kaiowá.  Artesão Germano Lima.  Aldeia Guyra Kabiy ..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0022",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0022",
+      "total_imagens": 7,
+      "descricao": "Cocar/ Jeguaká. Adorno para a cabeça utilizado pelas mulheres para acentar a sabedoria. Artesã Amalia Lima. Aldeia Aldei..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0023",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0023",
+      "total_imagens": 5,
+      "descricao": "Cocar/ Jeguaká. Adorno para a cabeça utilizado pelas mulheres para acentar a sabedoria. Artesã Amalia Lima (morreu em 20..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0024",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0024",
+      "total_imagens": 3,
+      "descricao": "Cocar/ Jeguaká. Adorno para a cabeça utilizado pelas mulheres para acentar a sabedoria. Artesã Lima (morreu em 2018 aos ..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0025",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0025",
+      "total_imagens": 8,
+      "descricao": "Cocar/ Jeguaká. Adorno para a cabeça utilizado pelas mulheres para acentar a sabedoria. Artesã Amalia Lima. Aldeia Aldei..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0026",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0026",
+      "total_imagens": 7,
+      "descricao": "Apito/ Mimby jary. Instrumento religioso e musical. Tem o formato de uma mulher idosa. Artesão Família de Adulia Gomes. ..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0027",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0027",
+      "total_imagens": 7,
+      "descricao": "Apito/ Mimby. Feito de cedro, instrumento religioso e musical. Artesão José Benito. Aldeia Kurusu-Amba (Jguapiré) - Mato..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0028",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0028",
+      "total_imagens": 4,
+      "descricao": "Apito/ Minby-apyká. Instrumento religioso e musical. Artesão Marolino Fernandez. Aldeia Kurusu-Amba (Jguapiré) - Mato Gr..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0029",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0029",
+      "total_imagens": 2,
+      "descricao": "Apito/ Mbo’y mimby. Feito a partir da raiz da goiaba do campo. Possui um cordão de algodão com miçangas feitas de sement..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0030",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0030",
+      "total_imagens": 3,
+      "descricao": "Cordão/ Jesaha. Cordão feito com sementes, cabaça e aglomerados de lã. Artesã Ausira Ornirio. Aldeira Camby - Mato Gross..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0031",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0031",
+      "total_imagens": 1,
+      "descricao": "Cordão/ Jesaha. Cordão feito com sementes. Artesão Ezequiel. Aldeira Camby - Mato Grosso do Sul, Brasil. Dimensões: A-80..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0032",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0032",
+      "total_imagens": 2,
+      "descricao": "Cordão/ Jesaha. Cordão feito com sementes e aglomerados de lã. Artesã Ausira Ornirio. Aldeira Camby - Mato Grosso do Sul..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0033",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0033",
+      "total_imagens": 2,
+      "descricao": "Cordão/ Jesaha. Cordão feito com sementes, cabaça e aglomerados de lã. Artesã Ausira Ornirio. Aldeira Camby - Mato Gross..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0034",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0034",
+      "total_imagens": 1,
+      "descricao": "Arco musical/ Guirá-paï. Arco musical. Artesão João Souza. Aldeia Kurusu-Amba (Jguapiré) - Mato Grosso do Sul, Brasil. D..."
+    },
+    {
+      "codigo_acervo": "MNSEE.003.0035",
+      "pasta": "CLIP/Embeddings_CLIP_MN_003/MNSEE.003.0035",
+      "total_imagens": 2,
+      "descricao": "Saia/ Kuña Kuakaha. Utilizada na Aty Guasu Kuña, Assembléia Geral das Mulheres. Artesã Vanderleia Rocha. Aldeia Rancho J..."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "codigo_acervo": "MNSEE.003.0029",
+  "descricao": "Apito/ Mbo’y mimby. Feito a partir da raiz da goiaba do campo. Possui um cordão de algodão com miçangas feitas de semente, amarrado a um pequeno banco ritual (apyká). Artesã Lucia. Aldeia Amambai - Mato Groso do Sul, Brasil. Dimensões: (maracá)  A-6cm; L-4cm, (cordão) A- 41cm. Acervo do Setor de Etnologia e Etnografia, Museu Nacional/UFRJ. Coleção Guarani Kaiowá - Tekohá em litígio, doada em 2020.",
+  "titulo_colecao": "Coleção Guarani Kaiowá - Tekohá em litígio - 2020.",
+  "modelo_clip": "openai/clip-vit-base-patch32",
+  "dimensao_vetores": 512,
+  "total_imagens": 2,
+  "arquivo_embedding_descricao": "descricao_embedding.npy",
+  "imagens": [
+    {
+      "arquivo_imagem": "MN 003-73.jpg",
+      "arquivo_embedding": "MN 003-73.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-74.jpg",
+      "arquivo_embedding": "MN 003-74.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    }
+  ]
+}

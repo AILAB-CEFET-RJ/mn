@@ -1,0 +1,51 @@
+{
+  "codigo_acervo": "MNSEE.003.0023",
+  "descricao": "Cocar/ Jeguaká. Adorno para a cabeça utilizado pelas mulheres para acentar a sabedoria. Artesã Amalia Lima (morreu em 2018 aos 112 anos). Aldeia Aldeia Kambiy - Mato Grosso do Sul, Brasil. Dimensões: (cocar)  A-15cm; L-27cm, (cordão) A- 20cm. Acervo do Setor de Etnologia e Etnografia, Museu Nacional/UFRJ. Coleção Guarani Kaiowá - Tekohá em litígio, doada em 2020.",
+  "titulo_colecao": "Coleção Guarani Kaiowá - Tekohá em litígio - 2020.",
+  "modelo_clip": "openai/clip-vit-base-patch32",
+  "dimensao_vetores": 512,
+  "total_imagens": 5,
+  "arquivo_embedding_descricao": "descricao_embedding.npy",
+  "imagens": [
+    {
+      "arquivo_imagem": "MN 003-54.jpg",
+      "arquivo_embedding": "MN 003-54.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-55.jpg",
+      "arquivo_embedding": "MN 003-55.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-56.jpg",
+      "arquivo_embedding": "MN 003-56.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-57.jpg",
+      "arquivo_embedding": "MN 003-57.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-58.jpg",
+      "arquivo_embedding": "MN 003-58.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    }
+  ]
+}

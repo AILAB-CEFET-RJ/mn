@@ -1,0 +1,67 @@
+{
+  "codigo_acervo": "MNSEE.003.0027",
+  "descricao": "Apito/ Mimby. Feito de cedro, instrumento religioso e musical. Artesão José Benito. Aldeia Kurusu-Amba (Jguapiré) - Mato Grosso do Sul, Brasil. Dimensões: A-5cm; L-8cm. Acervo do Setor de Etnologia e Etnografia, Museu Nacional/UFRJ. Coleção Guarani Kaiowá - Tekohá em litígio, doada em 2020.",
+  "titulo_colecao": "Coleção Guarani Kaiowá - Tekohá em litígio - 2020.",
+  "modelo_clip": "openai/clip-vit-base-patch32",
+  "dimensao_vetores": 512,
+  "total_imagens": 7,
+  "arquivo_embedding_descricao": "descricao_embedding.npy",
+  "imagens": [
+    {
+      "arquivo_imagem": "MN 003-19.jpg",
+      "arquivo_embedding": "MN 003-19.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-20.jpg",
+      "arquivo_embedding": "MN 003-20.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-21.jpg",
+      "arquivo_embedding": "MN 003-21.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-22.jpg",
+      "arquivo_embedding": "MN 003-22.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-23.jpg",
+      "arquivo_embedding": "MN 003-23.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-24.jpg",
+      "arquivo_embedding": "MN 003-24.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-25.jpg",
+      "arquivo_embedding": "MN 003-25.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "codigo_acervo": "MNSEE.003.0009",
+  "descricao": "Bodoque/Guyrapa. Arco utilizado para atirar bolas de barro endurecidas ao fogo, colocadas em um invólucro de pano entre as cordas do arco. Artesão João Souza. Aldeia Kurusu-Amba (Jaguapiré) - Mato Grosso do Sul, Brasil. Dimensões: A-93cm; L-9cm. Acervo do Setor de Etnologia e Etnografia, Museu Nacional/UFRJ. Coleção Guarani Kaiowá - Tekohá em litígio, doada em 2020.",
+  "titulo_colecao": "Coleção Guarani Kaiowá - Tekohá em litígio - 2020.",
+  "modelo_clip": "openai/clip-vit-base-patch32",
+  "dimensao_vetores": 512,
+  "total_imagens": 2,
+  "arquivo_embedding_descricao": "descricao_embedding.npy",
+  "imagens": [
+    {
+      "arquivo_imagem": "MN 003-100.jpg",
+      "arquivo_embedding": "MN 003-100.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    },
+    {
+      "arquivo_imagem": "MN 003-101.jpg",
+      "arquivo_embedding": "MN 003-101.npy",
+      "embedding_shape": [
+        512
+      ],
+      "dimensao": 512
+    }
+  ]
+}
