@@ -1,0 +1,449 @@
+{
+ "rotulos": "FRACOS: relevância = mesmo tipo de objeto; revisar manualmente",
+ "consultas_texto": [
+  {
+   "id": "t_00",
+   "texto_pt": "Abanador",
+   "texto_en": "fan",
+   "relevantes": [
+    "MNSEE.003.0002"
+   ]
+  },
+  {
+   "id": "t_01",
+   "texto_pt": "Apito",
+   "texto_en": "whistle",
+   "relevantes": [
+    "MNSEE.003.0026",
+    "MNSEE.003.0027",
+    "MNSEE.003.0028",
+    "MNSEE.003.0029"
+   ]
+  },
+  {
+   "id": "t_02",
+   "texto_pt": "Arco",
+   "texto_en": "bow",
+   "relevantes": [
+    "MNSEE.003.0008"
+   ]
+  },
+  {
+   "id": "t_03",
+   "texto_pt": "Arco musical",
+   "texto_en": "musical bow",
+   "relevantes": [
+    "MNSEE.003.0010",
+    "MNSEE.003.0034"
+   ]
+  },
+  {
+   "id": "t_04",
+   "texto_pt": "Bodoque",
+   "texto_en": "slingshot",
+   "relevantes": [
+    "MNSEE.003.0009"
+   ]
+  },
+  {
+   "id": "t_05",
+   "texto_pt": "Borduna",
+   "texto_en": "wooden club",
+   "relevantes": [
+    "MNSEE.003.0003",
+    "MNSEE.003.0004",
+    "MNSEE.003.0005",
+    "MNSEE.003.0006"
+   ]
+  },
+  {
+   "id": "t_06",
+   "texto_pt": "Cocar",
+   "texto_en": "feather headdress",
+   "relevantes": [
+    "MNSEE.003.0022",
+    "MNSEE.003.0023",
+    "MNSEE.003.0024",
+    "MNSEE.003.0025"
+   ]
+  },
+  {
+   "id": "t_07",
+   "texto_pt": "Cordão",
+   "texto_en": "cord necklace",
+   "relevantes": [
+    "MNSEE.003.0030",
+    "MNSEE.003.0031",
+    "MNSEE.003.0032",
+    "MNSEE.003.0033"
+   ]
+  },
+  {
+   "id": "t_08",
+   "texto_pt": "Coroa",
+   "texto_en": "crown",
+   "relevantes": [
+    "MNSEE.003.0021"
+   ]
+  },
+  {
+   "id": "t_09",
+   "texto_pt": "Crânio de macaco",
+   "texto_en": "monkey skull",
+   "relevantes": [
+    "MNSEE.003.0017"
+   ]
+  },
+  {
+   "id": "t_10",
+   "texto_pt": "Flecha",
+   "texto_en": "arrow",
+   "relevantes": [
+    "MNSEE.003.0007"
+   ]
+  },
+  {
+   "id": "t_11",
+   "texto_pt": "Maracá",
+   "texto_en": "maraca rattle",
+   "relevantes": [
+    "MNSEE.003.0011",
+    "MNSEE.003.0012",
+    "MNSEE.003.0013",
+    "MNSEE.003.0014",
+    "MNSEE.003.0015",
+    "MNSEE.003.0016"
+   ]
+  },
+  {
+   "id": "t_12",
+   "texto_pt": "Peneira",
+   "texto_en": "sieve",
+   "relevantes": [
+    "MNSEE.003.0001"
+   ]
+  },
+  {
+   "id": "t_13",
+   "texto_pt": "Saia",
+   "texto_en": "skirt",
+   "relevantes": [
+    "MNSEE.003.0019",
+    "MNSEE.003.0020",
+    "MNSEE.003.0035"
+   ]
+  },
+  {
+   "id": "t_14",
+   "texto_pt": "Taquapu",
+   "texto_en": "bamboo stamping tube",
+   "relevantes": [
+    "MNSEE.003.0018"
+   ]
+  }
+ ],
+ "consultas_imagem": [
+  {
+   "id": "i_MNSEE.003.0026",
+   "item_id": "MNSEE.003.0026",
+   "image_id": "MN_003-10",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-10.jpg",
+   "relevantes": [
+    "MNSEE.003.0027",
+    "MNSEE.003.0028",
+    "MNSEE.003.0029"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0027",
+   "item_id": "MNSEE.003.0027",
+   "image_id": "MN_003-19",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-19.jpg",
+   "relevantes": [
+    "MNSEE.003.0026",
+    "MNSEE.003.0028",
+    "MNSEE.003.0029"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0028",
+   "item_id": "MNSEE.003.0028",
+   "image_id": "MN_003-15",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-15.jpg",
+   "relevantes": [
+    "MNSEE.003.0026",
+    "MNSEE.003.0027",
+    "MNSEE.003.0029"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0029",
+   "item_id": "MNSEE.003.0029",
+   "image_id": "MN_003-73",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-73.jpg",
+   "relevantes": [
+    "MNSEE.003.0026",
+    "MNSEE.003.0027",
+    "MNSEE.003.0028"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0010",
+   "item_id": "MNSEE.003.0010",
+   "image_id": "MN_003-76",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-76.jpg",
+   "relevantes": [
+    "MNSEE.003.0034"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0034",
+   "item_id": "MNSEE.003.0034",
+   "image_id": "MN_003-78",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-78.jpg",
+   "relevantes": [
+    "MNSEE.003.0010"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0003",
+   "item_id": "MNSEE.003.0003",
+   "image_id": "MN_003-93",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-93.jpg",
+   "relevantes": [
+    "MNSEE.003.0004",
+    "MNSEE.003.0005",
+    "MNSEE.003.0006"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0004",
+   "item_id": "MNSEE.003.0004",
+   "image_id": "MN_003-96",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-96.jpg",
+   "relevantes": [
+    "MNSEE.003.0003",
+    "MNSEE.003.0005",
+    "MNSEE.003.0006"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0005",
+   "item_id": "MNSEE.003.0005",
+   "image_id": "MN_003-102",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-102.jpg",
+   "relevantes": [
+    "MNSEE.003.0003",
+    "MNSEE.003.0004",
+    "MNSEE.003.0006"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0006",
+   "item_id": "MNSEE.003.0006",
+   "image_id": "MN_003-106",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-106.jpg",
+   "relevantes": [
+    "MNSEE.003.0003",
+    "MNSEE.003.0004",
+    "MNSEE.003.0005"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0022",
+   "item_id": "MNSEE.003.0022",
+   "image_id": "MN_003-59",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-59.jpg",
+   "relevantes": [
+    "MNSEE.003.0023",
+    "MNSEE.003.0024",
+    "MNSEE.003.0025"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0023",
+   "item_id": "MNSEE.003.0023",
+   "image_id": "MN_003-54",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-54.jpg",
+   "relevantes": [
+    "MNSEE.003.0022",
+    "MNSEE.003.0024",
+    "MNSEE.003.0025"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0024",
+   "item_id": "MNSEE.003.0024",
+   "image_id": "MN_003-51",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-51.jpg",
+   "relevantes": [
+    "MNSEE.003.0022",
+    "MNSEE.003.0023",
+    "MNSEE.003.0025"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0025",
+   "item_id": "MNSEE.003.0025",
+   "image_id": "MN_003-43",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-43.jpg",
+   "relevantes": [
+    "MNSEE.003.0022",
+    "MNSEE.003.0023",
+    "MNSEE.003.0024"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0030",
+   "item_id": "MNSEE.003.0030",
+   "image_id": "MN_003-66",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-66.jpg",
+   "relevantes": [
+    "MNSEE.003.0031",
+    "MNSEE.003.0032",
+    "MNSEE.003.0033"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0031",
+   "item_id": "MNSEE.003.0031",
+   "image_id": "MN_003-75",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-75.jpg",
+   "relevantes": [
+    "MNSEE.003.0030",
+    "MNSEE.003.0032",
+    "MNSEE.003.0033"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0032",
+   "item_id": "MNSEE.003.0032",
+   "image_id": "MN_003-69",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-69.jpg",
+   "relevantes": [
+    "MNSEE.003.0030",
+    "MNSEE.003.0031",
+    "MNSEE.003.0033"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0033",
+   "item_id": "MNSEE.003.0033",
+   "image_id": "MN_003-71",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-71.jpg",
+   "relevantes": [
+    "MNSEE.003.0030",
+    "MNSEE.003.0031",
+    "MNSEE.003.0032"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0012",
+   "item_id": "MNSEE.003.0012",
+   "image_id": "MN_003-33",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-33.jpg",
+   "relevantes": [
+    "MNSEE.003.0011",
+    "MNSEE.003.0013",
+    "MNSEE.003.0014",
+    "MNSEE.003.0015",
+    "MNSEE.003.0016"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0011",
+   "item_id": "MNSEE.003.0011",
+   "image_id": "MN_003-41",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-41.jpg",
+   "relevantes": [
+    "MNSEE.003.0012",
+    "MNSEE.003.0013",
+    "MNSEE.003.0014",
+    "MNSEE.003.0015",
+    "MNSEE.003.0016"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0013",
+   "item_id": "MNSEE.003.0013",
+   "image_id": "MN_003-35",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-35.jpg",
+   "relevantes": [
+    "MNSEE.003.0011",
+    "MNSEE.003.0012",
+    "MNSEE.003.0014",
+    "MNSEE.003.0015",
+    "MNSEE.003.0016"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0014",
+   "item_id": "MNSEE.003.0014",
+   "image_id": "MN_003-28",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-28.jpg",
+   "relevantes": [
+    "MNSEE.003.0011",
+    "MNSEE.003.0012",
+    "MNSEE.003.0013",
+    "MNSEE.003.0015",
+    "MNSEE.003.0016"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0015",
+   "item_id": "MNSEE.003.0015",
+   "image_id": "MN_003-31",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-31.jpg",
+   "relevantes": [
+    "MNSEE.003.0011",
+    "MNSEE.003.0012",
+    "MNSEE.003.0013",
+    "MNSEE.003.0014",
+    "MNSEE.003.0016"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0016",
+   "item_id": "MNSEE.003.0016",
+   "image_id": "MN_003-38",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-38.jpg",
+   "relevantes": [
+    "MNSEE.003.0011",
+    "MNSEE.003.0012",
+    "MNSEE.003.0013",
+    "MNSEE.003.0014",
+    "MNSEE.003.0015"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0019",
+   "item_id": "MNSEE.003.0019",
+   "image_id": "MN_003-108",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-108.jpg",
+   "relevantes": [
+    "MNSEE.003.0020",
+    "MNSEE.003.0035"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0020",
+   "item_id": "MNSEE.003.0020",
+   "image_id": "MN_003-112",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-112.jpg",
+   "relevantes": [
+    "MNSEE.003.0019",
+    "MNSEE.003.0035"
+   ]
+  },
+  {
+   "id": "i_MNSEE.003.0035",
+   "item_id": "MNSEE.003.0035",
+   "image_id": "MN_003-110",
+   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-110.jpg",
+   "relevantes": [
+    "MNSEE.003.0019",
+    "MNSEE.003.0020"
+   ]
+  }
+ ]
+}

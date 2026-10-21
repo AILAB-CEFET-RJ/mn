@@ -1,0 +1,80 @@
+{
+ "rotulos": "FRACOS: relevância = mesmo tipo de objeto; revisar manualmente",
+ "resultados": {
+  "texto→imagem (CLIP, PT)": {
+   "recall@1": 0.1667,
+   "precision@1": 0.2,
+   "ndcg@1": 0.2,
+   "recall@5": 0.25,
+   "precision@5": 0.0667,
+   "ndcg@5": 0.2164,
+   "recall@10": 0.3778,
+   "precision@10": 0.0667,
+   "ndcg@10": 0.2651,
+   "mrr": 0.2667,
+   "n": 15,
+   "lat_ms_med": 13.5,
+   "lat_ms_p95": 15.9
+  },
+  "texto→imagem (CLIP, EN)": {
+   "recall@1": 0.35,
+   "precision@1": 0.6,
+   "ndcg@1": 0.6,
+   "recall@5": 0.7056,
+   "precision@5": 0.32,
+   "ndcg@5": 0.6525,
+   "recall@10": 0.9056,
+   "precision@10": 0.2133,
+   "ndcg@10": 0.7334,
+   "mrr": 0.7229,
+   "n": 15,
+   "lat_ms_med": 12.6,
+   "lat_ms_p95": 14.3
+  },
+  "texto→descrição (BGE-M3, PT)": {
+   "recall@1": 0.6,
+   "precision@1": 0.9333,
+   "ndcg@1": 0.9333,
+   "recall@5": 0.9889,
+   "precision@5": 0.4533,
+   "ndcg@5": 0.9591,
+   "recall@10": 1.0,
+   "precision@10": 0.2333,
+   "ndcg@10": 0.9591,
+   "mrr": 0.9467,
+   "n": 15,
+   "lat_ms_med": 60.1,
+   "lat_ms_p95": 72.2
+  },
+  "híbrido RRF (PT)": {
+   "recall@1": 0.3444,
+   "precision@1": 0.5333,
+   "ndcg@1": 0.5333,
+   "recall@5": 0.6389,
+   "precision@5": 0.2533,
+   "ndcg@5": 0.5789,
+   "recall@10": 0.8444,
+   "precision@10": 0.1733,
+   "ndcg@10": 0.6553,
+   "mrr": 0.6345,
+   "n": 15,
+   "lat_ms_med": 73.5,
+   "lat_ms_p95": 96.5
+  },
+  "imagem→imagem (CLIP, leave-one-out)": {
+   "recall@1": 0.316,
+   "precision@1": 0.8519,
+   "ndcg@1": 0.8519,
+   "recall@5": 0.8469,
+   "precision@5": 0.5407,
+   "ndcg@5": 0.8168,
+   "recall@10": 0.9074,
+   "precision@10": 0.2926,
+   "ndcg@10": 0.8467,
+   "mrr": 0.8981,
+   "n": 27,
+   "lat_ms_med": 244.5,
+   "lat_ms_p95": 306.9
+  }
+ }
+}

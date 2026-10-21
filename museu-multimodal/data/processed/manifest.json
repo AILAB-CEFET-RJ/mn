@@ -1,0 +1,19 @@
+{
+ "image_model": "openai/clip-vit-base-patch32",
+ "dim": 512,
+ "normalized": true,
+ "count": 113,
+ "failed": [],
+ "versao_indexacao": "v1",
+ "text_model": "BAAI/bge-m3",
+ "text_dim": 1024,
+ "text_pooling": "cls",
+ "ultima_execucao_imagens": {
+  "novas": 113,
+  "segundos": 5.4,
+  "imagens_por_s": 20.81,
+  "dispositivo": "cpu",
+  "batch": 32
+ },
+ "textos_unicos": 35
+}

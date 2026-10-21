@@ -1,0 +1,9 @@
+transformers
+numpy
+pillow
+tqdm
+qdrant-client
+# torch: instalar separadamente (ROCm para RX 6600, ver README)
+fastapi
+uvicorn
+python-multipart

@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Museu Multimodal - Caches, dados gerados e variáveis de ambiente
+.env
+.env.*
+*.npy
+*.npz
+museu-multimodal/data/thumbs/
+qdrant_storage/
