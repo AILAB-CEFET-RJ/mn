@@ -147,11 +147,11 @@ def main():
             is_siglip=True,
         )
 
-    (PROCESSED / "image_ids.json").write_text(json.dumps([r["image_id"] for r in final]))
-    (PROCESSED / "metadata.json").write_text(json.dumps(final, ensure_ascii=False, indent=1))
+    (PROCESSED / "image_ids.json").write_text(json.dumps([r["image_id"] for r in final]), encoding="utf-8")
+    (PROCESSED / "metadata.json").write_text(json.dumps(final, ensure_ascii=False, indent=1), encoding="utf-8")
 
     man_path = PROCESSED / "manifest.json"
-    man = json.loads(man_path.read_text()) if man_path.exists() else {}
+    man = json.loads(man_path.read_text(encoding="utf-8")) if man_path.exists() else {}
     man.update({
         "image_model": CLIP_MODEL,
         "dim": 512,
@@ -164,7 +164,7 @@ def main():
         "ultima_execucao_imagens": clip_stats,
         "ultima_execucao_siglip": siglip_stats,
     })
-    man_path.write_text(json.dumps(man, indent=1, ensure_ascii=False))
+    man_path.write_text(json.dumps(man, indent=1, ensure_ascii=False), encoding="utf-8")
     log.info("Concluído: %d imagens processadas", len(final))
 
 

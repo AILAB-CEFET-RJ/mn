@@ -79,7 +79,7 @@ class SearchService:
 
     def _load_bm25(self):
         if self._bm25_r4 is None:
-            meta = json.loads(META_PATH.read_text())
+            meta = json.loads(META_PATH.read_text(encoding="utf-8"))
             by_item: dict[str, dict] = {}
             for r in meta:
                 by_item.setdefault(r["item_id"], r)

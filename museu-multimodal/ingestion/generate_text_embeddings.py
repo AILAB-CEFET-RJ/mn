@@ -37,7 +37,7 @@ def text_key(t: str) -> str:
 def main():
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     device = os.getenv("DEVICE") or ("cuda" if torch.cuda.is_available() else "cpu")
-    meta = json.loads((PROCESSED / "metadata.json").read_text())
+    meta = json.loads((PROCESSED / "metadata.json").read_text(encoding="utf-8"))
 
     texts_r2 = [m.get("texto_r2") or build_text_r2(m) for m in meta]
     texts_r4 = [m.get("texto_r4") or build_text_r4(m) for m in meta]
@@ -74,7 +74,7 @@ def main():
     np.save(PROCESSED / "text_embeddings.npy", np.stack([cache[text_key(t)] for t in texts_r4]))
 
     man_path = PROCESSED / "manifest.json"
-    man = json.loads(man_path.read_text()) if man_path.exists() else {}
+    man = json.loads(man_path.read_text(encoding="utf-8")) if man_path.exists() else {}
     man.update({
         "text_model": MODEL_NAME,
         "text_dim": 1024,
@@ -82,7 +82,7 @@ def main():
         "textos_r2_unicos": len(set(texts_r2)),
         "textos_r4_unicos": len(set(texts_r4)),
     })
-    man_path.write_text(json.dumps(man, indent=1, ensure_ascii=False))
+    man_path.write_text(json.dumps(man, indent=1, ensure_ascii=False), encoding="utf-8")
     log.info("Salvos text_r2_embeddings.npy e text_embeddings.npy (%d registros)", len(meta))
 
 

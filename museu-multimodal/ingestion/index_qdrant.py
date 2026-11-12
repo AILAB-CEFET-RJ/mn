@@ -66,7 +66,7 @@ def existing_ids(client: QdrantClient, ids: list[str]) -> set[str]:
 def main():
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     vecs = np.load(PROCESSED / "image_embeddings.npy")
-    meta = json.loads((PROCESSED / "metadata.json").read_text())
+    meta = json.loads((PROCESSED / "metadata.json").read_text(encoding="utf-8"))
     assert len(vecs) == len(meta), "image_embeddings e metadata desalinhados"
 
     siglip_path = PROCESSED / "siglip_image_embeddings.npy"

@@ -177,5 +177,5 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     recs = load_catalog()
     PROCESSED.mkdir(parents=True, exist_ok=True)
-    (PROCESSED / "metadata.json").write_text(json.dumps(recs, ensure_ascii=False, indent=1))
+    (PROCESSED / "metadata.json").write_text(json.dumps(recs, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"metadata.json: {len(recs)} registros ({len({r['item_id'] for r in recs})} objetos únicos)")
