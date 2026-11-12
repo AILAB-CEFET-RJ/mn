@@ -118,3 +118,79 @@ python ingestion/search_image.py "../Base Museu Nacional/MN_003/MN 003-33.jpg" 5
 # Suíte de testes unitários e de integração
 python -m unittest discover -s tests -v
 ```
+
+---
+
+## 5. Arquitetura do Projeto
+
+### 5.1. Estrutura de Diretórios
+
+```text
+museu-multimodal/
+├── app/                              # Backend FastAPI (busca online)
+│   ├── main.py                       # Inicialização da API, CORS, lifespan e /health
+│   ├── config.py                     # Configurações centralizadas (modelos, caminhos, Qdrant)
+│   ├── api/
+│   │   ├── search.py                 # POST /search/text e POST /search/image
+│   │   └── items.py                  # GET /items/{item_id} e GET /images/{image_id}?w= (cache de thumbs)
+│   ├── db/
+│   │   └── qdrant_client.py          # Singleton QdrantClient (Docker/Cloud ou fallback local em disco)
+│   └── services/
+│       ├── search_service.py         # Orquestração de buscas (R1, R2, R3, R4, CLIP, SigLIP e BM25)
+│       ├── bm25_service.py           # Baseline léxico BM25 Okapi sobre R2 e R4
+│       └── fusion_service.py         # Fusão de rankings via Reciprocal Rank Fusion (RRF, k=60)
+├── ingestion/                        # Pipeline offline de ingestão e CLI
+│   ├── load_catalog.py               # Leitura e cruzamento de Base*.csv + Metadados_Imagens/*.csv
+│   ├── eda_report.py                 # Etapa 1: Análise exploratória da base (eda_report.md / .json)
+│   ├── generate_image_embeddings.py  # Etapa 2: Embeddings visuais CLIP (512-d) e SigLIP (768-d)
+│   ├── generate_text_embeddings.py   # Etapa 2: Embeddings textuais BGE-M3 (1024-d) para R2 e R4
+│   ├── index_qdrant.py               # Etapa 3: Indexação idempotente dos 4 vetores nomeados no Qdrant
+│   ├── search_image.py               # CLI de busca imagem→imagem
+│   └── search_text.py                # CLI de busca textual/híbrida
+├── evaluation/                       # Avaliação experimental do TCC
+│   ├── build_queries.py              # Etapa 3: Geração das consultas de avaliação (queries.json)
+│   ├── evaluate.py                   # Etapa 4: Métricas (Recall@K, P@K, nDCG@K, MRR, MAP@10, latência)
+│   ├── cross_modal.py                # Tarefas cruzadas descrição→imagem e imagem→texto
+│   └── error_analysis.py             # Etapa 5: Análise quantitativa de erros (error_analysis.md / .json)
+├── data/
+│   ├── processed/                    # Embeddings (.npy), checkpoints (.npz), metadata.json e manifest.json
+│   ├── qdrant_local/                 # Persistência local automática do Qdrant (quando sem container)
+│   └── thumbs/                       # Cache em disco de miniaturas redimensionadas
+├── frontend/                         # Interface Web (Next.js / React)
+│   └── app/page.js                   # Busca por texto/imagem, seletor R1–R4/BM25, filtros e modal do item
+├── tests/
+│   └── test_core.py                  # Testes unitários e de integração (RRF, catálogo, métricas, BM25)
+├── Dockerfile                        # Imagem Docker da API FastAPI (PyTorch CPU)
+├── docker-compose.yml                # Serviços qdrant + api
+├── requirements.txt                  # Dependências Python
+├── pyproject.toml                    # Configuração do pacote e pytest
+└── run_pipeline.sh                   # Script de automação (app, tcc ou completo)
+```
+
+---
+
+### 5.2. Modelos e Representações (`R1` a `R4` + Baselines)
+
+| Representação / Modo | Modos na API | Codificadores | Fontes de Informação |
+|---|---|---|---|
+| **Baseline Léxico (R2)** | `bm25_r2` | BM25 Okapi (PT) | Apenas descrição física pura (`catalogo_descrição`) |
+| **Baseline Léxico (R4)** | `bm25_r4`, `bm25` | BM25 Okapi (PT) | Descrição física + metadados catalográficos selecionados |
+| **R1 — Apenas Imagem** | `R1_clip` (`images`), `R1_siglip` | CLIP ViT-B/32 (`512-d`) ou SigLIP Multilíngue (`768-d`) | Fotografia do objeto (busca texto→imagem ou imagem→imagem) |
+| **R2 — Apenas Descrição Física** | `R2` | BGE-M3 (`1024-d`, CLS + L2) | Somente `catalogo_descrição` |
+| **R3 — Imagem + Descrição Pura** | `R3_clip` (`R3`), `R3_siglip` | Fusão RRF (`R1` + `R2`) | Fotografia + `catalogo_descrição` |
+| **R4 (Textual) — Desc + Metadados** | `R4_text` (`descriptions`) | BGE-M3 (`1024-d`, CLS + L2) | Descrição física + categoria, denominação indígena, material, técnica, função, povo, aldeia e notas |
+| **R4 (Multimodal) — Completo** | `R4_clip` (`hybrid`, `R4`), `R4_siglip` | Fusão RRF (`R1` + `R4_text`) | Fotografia + descrição física + metadados catalográficos |
+
+---
+
+### 5.3. Modelagem no Banco Vetorial (Qdrant)
+
+- **Coleção:** `museum_images` (1 ponto por fotografia, identificado por `UUIDv5` determinístico derivado de `image_id`).
+- **Granularidade de retorno:** como um mesmo objeto museológico (`item_id` = `codigo_acervo`) possui múltiplas fotografias sob diferentes ângulos, as buscas agrupam os resultados por `item_id` mantendo a melhor foto de cada objeto.
+- **Quatro vetores nomeados por ponto (distância Cosseno):**
+  - `image`: `512-d` (`openai/clip-vit-base-patch32`)
+  - `siglip_image`: `768-d` (`google/siglip-base-patch16-256-multilingual`)
+  - `text_r2`: `1024-d` (`BAAI/bge-m3` sobre `texto_r2`)
+  - `text`: `1024-d` (`BAAI/bge-m3` sobre `texto_r4`)
+- **Fusão Multimodal:** os rankings do ramo visual (`R1`) e do ramo textual (`R2` ou `R4_text`) são combinados via **Reciprocal Rank Fusion (RRF, $k=60$)**, evitando somar diretamente scores de modelos com escalas de similaridade distintas.
+
