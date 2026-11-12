@@ -5,18 +5,26 @@ import { useRef, useState } from "react";
 const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 const MODES = [
-  { v: "hybrid", label: "Híbrido (texto + imagem)" },
-  { v: "descriptions", label: "Descrições" },
-  { v: "images", label: "Imagens (CLIP)" },
+  { v: "R4_siglip", label: "R4: Multimodal (SigLIP + Desc + Metadados)" },
+  { v: "hybrid", label: "R4: Multimodal (CLIP + Desc + Metadados)" },
+  { v: "R4_text", label: "R4: Texto + Metadados (BGE-M3)" },
+  { v: "R3_siglip", label: "R3: Imagem (SigLIP) + Descrição Pura" },
+  { v: "R3_clip", label: "R3: Imagem (CLIP) + Descrição Pura" },
+  { v: "R2", label: "R2: Apenas Descrição Física (BGE-M3)" },
+  { v: "R1_siglip", label: "R1: Apenas Imagem (SigLIP Multilíngue)" },
+  { v: "images", label: "R1: Apenas Imagem (CLIP ViT-B/32)" },
+  { v: "bm25_r4", label: "Baseline Léxico BM25 (R4)" },
+  { v: "bm25_r2", label: "Baseline Léxico BM25 (R2)" },
 ];
 
 export default function Home() {
   const [tab, setTab] = useState("text");
   const [text, setText] = useState("");
-  const [mode, setMode] = useState("hybrid");
+  const [mode, setMode] = useState("R4_siglip");
+  const [visualModel, setVisualModel] = useState("clip");
   const [topK, setTopK] = useState(12);
+  const [categoria, setCategoria] = useState("");
   const [estado, setEstado] = useState("");
-  const [pais, setPais] = useState("");
   const [file, setFile] = useState(null);
   const [preview, setPreview] = useState(null);
   const [over, setOver] = useState(false);
@@ -42,8 +50,8 @@ export default function Home() {
       if (tab === "text") {
         if (!text.trim()) throw new Error("Digite uma consulta.");
         const filtros = {};
+        if (categoria) filtros.categoria = categoria;
         if (estado) filtros.estado = estado;
-        if (pais) filtros.pais = pais;
         res = await fetch(`${API}/search/text`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -54,8 +62,9 @@ export default function Home() {
         const fd = new FormData();
         fd.append("file", file);
         fd.append("top_k", topK);
+        fd.append("modelo_visual", visualModel);
+        if (categoria) fd.append("categoria", categoria);
         if (estado) fd.append("estado", estado);
-        if (pais) fd.append("pais", pais);
         res = await fetch(`${API}/search/image`, { method: "POST", body: fd });
       }
       const json = await res.json();
@@ -81,9 +90,9 @@ export default function Home() {
   return (
     <main className="container">
       <header className="hero">
-        <span className="eyebrow">Museu Nacional</span>
+        <span className="eyebrow">Museu Nacional · CEFET/RJ</span>
         <h1>Busca multimodal no acervo</h1>
-        <p>Pesquise por texto ou envie uma foto. Os resultados vêm dos registros catalográficos, com suas fontes.</p>
+        <p>Pesquise por consultas em linguagem natural ou por fotografia comparando representações R1, R2, R3, R4 e Baselines.</p>
       </header>
 
       <section className="panel" aria-label="Busca">
@@ -102,7 +111,7 @@ export default function Home() {
               <input
                 id="query-input"
                 className="input"
-                placeholder='Ex.: "maracá", "cocar de penas", "instrumento musical"'
+                placeholder='Ex.: "instrumentos musicais utilizados em cerimônias", "objetos utilizados em cerimônias religiosas"'
                 value={text}
                 onChange={(e) => setText(e.target.value)}
                 autoFocus
@@ -125,10 +134,17 @@ export default function Home() {
           </div>
 
           <div className="options">
-            {tab === "text" && (
-              <label className="field">Modo
+            {tab === "text" ? (
+              <label className="field">Representação / Método
                 <select id="mode-select" className="select" value={mode} onChange={(e) => setMode(e.target.value)}>
                   {MODES.map((m) => <option key={m.v} value={m.v}>{m.label}</option>)}
+                </select>
+              </label>
+            ) : (
+              <label className="field">Modelo Visual (R1)
+                <select id="vmodel-select" className="select" value={visualModel} onChange={(e) => setVisualModel(e.target.value)}>
+                  <option value="clip">CLIP ViT-B/32</option>
+                  <option value="siglip">SigLIP Multilíngue</option>
                 </select>
               </label>
             )}
@@ -137,11 +153,11 @@ export default function Home() {
                 {[6, 12, 24, 48].map((n) => <option key={n} value={n}>{n}</option>)}
               </select>
             </label>
+            <label className="field">Categoria
+              <input id="filter-categoria" className="small" placeholder="ex.: Maracá, Cocar" value={categoria} onChange={(e) => setCategoria(e.target.value)} />
+            </label>
             <label className="field">Estado
               <input id="filter-estado" className="small" placeholder="ex.: MS" value={estado} onChange={(e) => setEstado(e.target.value)} />
-            </label>
-            <label className="field">País
-              <input id="filter-pais" className="small" placeholder="ex.: Brasil" value={pais} onChange={(e) => setPais(e.target.value)} />
             </label>
           </div>
         </form>
@@ -160,21 +176,25 @@ export default function Home() {
           <>
             <div className="status">
               <h2>{data.total} {data.total === 1 ? "objeto encontrado" : "objetos encontrados"}</h2>
-              <span>{data.modo === "image" ? "imagem → imagem" : `texto · ${data.modo}`}</span>
+              <span>{data.modo}</span>
             </div>
             {data.aviso && <div className="notice">{data.aviso}</div>}
             <div className="grid">
               {data.resultados.map((r, i) => (
-                <button key={r.item_id} className="card" style={{ animationDelay: `${i * 40}ms` }} onClick={() => openItem(r)}>
+                <button key={r.item_id} className="card" onClick={() => openItem(r)}>
                   <div className="thumb">
                     <img src={`${API}${r.imagem_url}?w=480`} alt={r.descricao?.slice(0, 80) || r.item_id} loading="lazy" />
                     <span className="rank">#{i + 1}</span>
                   </div>
                   <div className="body">
-                    <h3>{r.descricao?.split(/[./]/)[0] || r.item_id}</h3>
-                    <p className="desc">{r.descricao}</p>
+                    <h3>
+                      {r.categoria || r.descricao?.split(/[./]/)[0] || r.item_id}
+                      {r.identificacao_local ? ` (${r.identificacao_local})` : ""}
+                    </h3>
+                    <p className="desc">{r.descricao_catalogo || r.descricao}</p>
                     <div className="badges">
                       <span className="badge">{r.item_id}</span>
+                      {r.material && <span className="badge">{r.material}</span>}
                       {Object.entries(r.scores || {}).map(([k, v]) => (
                         <span key={k} className="badge score">{k} {v}</span>
                       ))}
@@ -187,7 +207,7 @@ export default function Home() {
         )}
       </section>
 
-      <footer>Projeto de TCC · resultados refletem apenas os registros da base consultada.</footer>
+      <footer>Projeto de TCC (CEFET/RJ) · resultados refletem exclusivamente os registros da base consultada.</footer>
 
       {item && (
         <div className="overlay" onClick={() => setItem(null)} role="dialog" aria-modal="true">
@@ -203,13 +223,32 @@ export default function Home() {
               </div>
             </div>
             <div className="meta">
-              <h2>{item.descricao?.split(/[./]/)[0] || item.item_id}</h2>
-              <p style={{ color: "var(--muted)" }}>{item.descricao}</p>
+              <h2>
+                {item.categoria || item.item_id}
+                {item.identificacao_local ? ` / ${item.identificacao_local}` : ""}
+              </h2>
+              {item.descricao_catalogo && (
+                <p style={{ color: "var(--text)", marginBottom: 8, fontSize: 14 }}>
+                  <b>Descrição física (R2):</b> {item.descricao_catalogo}
+                </p>
+              )}
+              <p style={{ color: "var(--text-muted)", fontSize: 13 }}>{item.descricao}</p>
+              {item.notas_gerais && (
+                <p style={{ color: "var(--text-muted)", fontSize: 12, marginTop: 8, fontStyle: "italic" }}>
+                  <b>Notas etnográficas:</b> {item.notas_gerais}
+                </p>
+              )}
               <div className="badges" style={{ marginTop: 14 }}>
                 {item.tags?.map((t) => <span key={t} className="badge">{t}</span>)}
               </div>
               <div className="src">
                 <div><b>Código do acervo:</b> {item.fonte?.codigo_acervo || item.item_id}</div>
+                {item.funcao && <div><b>Função:</b> {item.funcao}</div>}
+                {item.material && <div><b>Material/Suporte:</b> {item.material}</div>}
+                {item.tecnica && <div><b>Técnica:</b> {item.tecnica}</div>}
+                {item.dimensoes && <div><b>Dimensões:</b> {item.dimensoes}</div>}
+                {item.artesao && <div><b>Autor/Artesão:</b> {item.artesao}</div>}
+                {item.povo && <div><b>Povo / Aldeia:</b> {item.povo}{item.aldeia ? ` — ${item.aldeia}` : ""}</div>}
                 <div><b>Coleção:</b> {item.titulo || "—"}</div>
                 <div><b>Fonte:</b> {item.fonte?.catalogo || "—"}</div>
               </div>

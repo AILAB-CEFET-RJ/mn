@@ -1,449 +1,1025 @@
 {
- "rotulos": "FRACOS: relevância = mesmo tipo de objeto; revisar manualmente",
- "consultas_texto": [
-  {
-   "id": "t_00",
-   "texto_pt": "Abanador",
-   "texto_en": "fan",
-   "relevantes": [
-    "MNSEE.003.0002"
-   ]
-  },
-  {
-   "id": "t_01",
-   "texto_pt": "Apito",
-   "texto_en": "whistle",
-   "relevantes": [
-    "MNSEE.003.0026",
-    "MNSEE.003.0027",
-    "MNSEE.003.0028",
-    "MNSEE.003.0029"
-   ]
-  },
-  {
-   "id": "t_02",
-   "texto_pt": "Arco",
-   "texto_en": "bow",
-   "relevantes": [
-    "MNSEE.003.0008"
-   ]
-  },
-  {
-   "id": "t_03",
-   "texto_pt": "Arco musical",
-   "texto_en": "musical bow",
-   "relevantes": [
-    "MNSEE.003.0010",
-    "MNSEE.003.0034"
-   ]
-  },
-  {
-   "id": "t_04",
-   "texto_pt": "Bodoque",
-   "texto_en": "slingshot",
-   "relevantes": [
-    "MNSEE.003.0009"
-   ]
-  },
-  {
-   "id": "t_05",
-   "texto_pt": "Borduna",
-   "texto_en": "wooden club",
-   "relevantes": [
-    "MNSEE.003.0003",
-    "MNSEE.003.0004",
-    "MNSEE.003.0005",
-    "MNSEE.003.0006"
-   ]
-  },
-  {
-   "id": "t_06",
-   "texto_pt": "Cocar",
-   "texto_en": "feather headdress",
-   "relevantes": [
-    "MNSEE.003.0022",
-    "MNSEE.003.0023",
-    "MNSEE.003.0024",
-    "MNSEE.003.0025"
-   ]
-  },
-  {
-   "id": "t_07",
-   "texto_pt": "Cordão",
-   "texto_en": "cord necklace",
-   "relevantes": [
-    "MNSEE.003.0030",
-    "MNSEE.003.0031",
-    "MNSEE.003.0032",
-    "MNSEE.003.0033"
-   ]
-  },
-  {
-   "id": "t_08",
-   "texto_pt": "Coroa",
-   "texto_en": "crown",
-   "relevantes": [
-    "MNSEE.003.0021"
-   ]
-  },
-  {
-   "id": "t_09",
-   "texto_pt": "Crânio de macaco",
-   "texto_en": "monkey skull",
-   "relevantes": [
-    "MNSEE.003.0017"
-   ]
-  },
-  {
-   "id": "t_10",
-   "texto_pt": "Flecha",
-   "texto_en": "arrow",
-   "relevantes": [
-    "MNSEE.003.0007"
-   ]
-  },
-  {
-   "id": "t_11",
-   "texto_pt": "Maracá",
-   "texto_en": "maraca rattle",
-   "relevantes": [
-    "MNSEE.003.0011",
-    "MNSEE.003.0012",
-    "MNSEE.003.0013",
-    "MNSEE.003.0014",
-    "MNSEE.003.0015",
-    "MNSEE.003.0016"
-   ]
-  },
-  {
-   "id": "t_12",
-   "texto_pt": "Peneira",
-   "texto_en": "sieve",
-   "relevantes": [
-    "MNSEE.003.0001"
-   ]
-  },
-  {
-   "id": "t_13",
-   "texto_pt": "Saia",
-   "texto_en": "skirt",
-   "relevantes": [
-    "MNSEE.003.0019",
-    "MNSEE.003.0020",
-    "MNSEE.003.0035"
-   ]
-  },
-  {
-   "id": "t_14",
-   "texto_pt": "Taquapu",
-   "texto_en": "bamboo stamping tube",
-   "relevantes": [
-    "MNSEE.003.0018"
-   ]
-  }
- ],
- "consultas_imagem": [
-  {
-   "id": "i_MNSEE.003.0026",
-   "item_id": "MNSEE.003.0026",
-   "image_id": "MN_003-10",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-10.jpg",
-   "relevantes": [
-    "MNSEE.003.0027",
-    "MNSEE.003.0028",
-    "MNSEE.003.0029"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0027",
-   "item_id": "MNSEE.003.0027",
-   "image_id": "MN_003-19",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-19.jpg",
-   "relevantes": [
-    "MNSEE.003.0026",
-    "MNSEE.003.0028",
-    "MNSEE.003.0029"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0028",
-   "item_id": "MNSEE.003.0028",
-   "image_id": "MN_003-15",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-15.jpg",
-   "relevantes": [
-    "MNSEE.003.0026",
-    "MNSEE.003.0027",
-    "MNSEE.003.0029"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0029",
-   "item_id": "MNSEE.003.0029",
-   "image_id": "MN_003-73",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-73.jpg",
-   "relevantes": [
-    "MNSEE.003.0026",
-    "MNSEE.003.0027",
-    "MNSEE.003.0028"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0010",
-   "item_id": "MNSEE.003.0010",
-   "image_id": "MN_003-76",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-76.jpg",
-   "relevantes": [
-    "MNSEE.003.0034"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0034",
-   "item_id": "MNSEE.003.0034",
-   "image_id": "MN_003-78",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-78.jpg",
-   "relevantes": [
-    "MNSEE.003.0010"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0003",
-   "item_id": "MNSEE.003.0003",
-   "image_id": "MN_003-93",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-93.jpg",
-   "relevantes": [
-    "MNSEE.003.0004",
-    "MNSEE.003.0005",
-    "MNSEE.003.0006"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0004",
-   "item_id": "MNSEE.003.0004",
-   "image_id": "MN_003-96",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-96.jpg",
-   "relevantes": [
-    "MNSEE.003.0003",
-    "MNSEE.003.0005",
-    "MNSEE.003.0006"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0005",
-   "item_id": "MNSEE.003.0005",
-   "image_id": "MN_003-102",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-102.jpg",
-   "relevantes": [
-    "MNSEE.003.0003",
-    "MNSEE.003.0004",
-    "MNSEE.003.0006"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0006",
-   "item_id": "MNSEE.003.0006",
-   "image_id": "MN_003-106",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-106.jpg",
-   "relevantes": [
-    "MNSEE.003.0003",
-    "MNSEE.003.0004",
-    "MNSEE.003.0005"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0022",
-   "item_id": "MNSEE.003.0022",
-   "image_id": "MN_003-59",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-59.jpg",
-   "relevantes": [
-    "MNSEE.003.0023",
-    "MNSEE.003.0024",
-    "MNSEE.003.0025"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0023",
-   "item_id": "MNSEE.003.0023",
-   "image_id": "MN_003-54",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-54.jpg",
-   "relevantes": [
-    "MNSEE.003.0022",
-    "MNSEE.003.0024",
-    "MNSEE.003.0025"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0024",
-   "item_id": "MNSEE.003.0024",
-   "image_id": "MN_003-51",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-51.jpg",
-   "relevantes": [
-    "MNSEE.003.0022",
-    "MNSEE.003.0023",
-    "MNSEE.003.0025"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0025",
-   "item_id": "MNSEE.003.0025",
-   "image_id": "MN_003-43",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-43.jpg",
-   "relevantes": [
-    "MNSEE.003.0022",
-    "MNSEE.003.0023",
-    "MNSEE.003.0024"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0030",
-   "item_id": "MNSEE.003.0030",
-   "image_id": "MN_003-66",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-66.jpg",
-   "relevantes": [
-    "MNSEE.003.0031",
-    "MNSEE.003.0032",
-    "MNSEE.003.0033"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0031",
-   "item_id": "MNSEE.003.0031",
-   "image_id": "MN_003-75",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-75.jpg",
-   "relevantes": [
-    "MNSEE.003.0030",
-    "MNSEE.003.0032",
-    "MNSEE.003.0033"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0032",
-   "item_id": "MNSEE.003.0032",
-   "image_id": "MN_003-69",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-69.jpg",
-   "relevantes": [
-    "MNSEE.003.0030",
-    "MNSEE.003.0031",
-    "MNSEE.003.0033"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0033",
-   "item_id": "MNSEE.003.0033",
-   "image_id": "MN_003-71",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-71.jpg",
-   "relevantes": [
-    "MNSEE.003.0030",
-    "MNSEE.003.0031",
-    "MNSEE.003.0032"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0012",
-   "item_id": "MNSEE.003.0012",
-   "image_id": "MN_003-33",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-33.jpg",
-   "relevantes": [
-    "MNSEE.003.0011",
-    "MNSEE.003.0013",
-    "MNSEE.003.0014",
-    "MNSEE.003.0015",
-    "MNSEE.003.0016"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0011",
-   "item_id": "MNSEE.003.0011",
-   "image_id": "MN_003-41",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-41.jpg",
-   "relevantes": [
-    "MNSEE.003.0012",
-    "MNSEE.003.0013",
-    "MNSEE.003.0014",
-    "MNSEE.003.0015",
-    "MNSEE.003.0016"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0013",
-   "item_id": "MNSEE.003.0013",
-   "image_id": "MN_003-35",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-35.jpg",
-   "relevantes": [
-    "MNSEE.003.0011",
-    "MNSEE.003.0012",
-    "MNSEE.003.0014",
-    "MNSEE.003.0015",
-    "MNSEE.003.0016"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0014",
-   "item_id": "MNSEE.003.0014",
-   "image_id": "MN_003-28",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-28.jpg",
-   "relevantes": [
-    "MNSEE.003.0011",
-    "MNSEE.003.0012",
-    "MNSEE.003.0013",
-    "MNSEE.003.0015",
-    "MNSEE.003.0016"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0015",
-   "item_id": "MNSEE.003.0015",
-   "image_id": "MN_003-31",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-31.jpg",
-   "relevantes": [
-    "MNSEE.003.0011",
-    "MNSEE.003.0012",
-    "MNSEE.003.0013",
-    "MNSEE.003.0014",
-    "MNSEE.003.0016"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0016",
-   "item_id": "MNSEE.003.0016",
-   "image_id": "MN_003-38",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-38.jpg",
-   "relevantes": [
-    "MNSEE.003.0011",
-    "MNSEE.003.0012",
-    "MNSEE.003.0013",
-    "MNSEE.003.0014",
-    "MNSEE.003.0015"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0019",
-   "item_id": "MNSEE.003.0019",
-   "image_id": "MN_003-108",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-108.jpg",
-   "relevantes": [
-    "MNSEE.003.0020",
-    "MNSEE.003.0035"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0020",
-   "item_id": "MNSEE.003.0020",
-   "image_id": "MN_003-112",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-112.jpg",
-   "relevantes": [
-    "MNSEE.003.0019",
-    "MNSEE.003.0035"
-   ]
-  },
-  {
-   "id": "i_MNSEE.003.0035",
-   "item_id": "MNSEE.003.0035",
-   "image_id": "MN_003-110",
-   "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-110.jpg",
-   "relevantes": [
-    "MNSEE.003.0019",
-    "MNSEE.003.0020"
-   ]
-  }
- ]
+  "protocolo": "Seção 7.3 do PDF: Tarefa 1 = busca por categoria oficial (catalogo_identificação_museológica); Tarefa 2 = consultas livres e semânticas em linguagem natural (função, material, uso ritual); Tarefa 3 = busca imagem→imagem leave-one-out.",
+  "consultas_categoria": [
+    {
+      "id": "cat_01",
+      "tarefa": "categoria",
+      "texto_pt": "Abanador",
+      "texto_en": "woven palm leaf fan",
+      "criterio": "catalogo_identificação_museológica == 'Abanador'",
+      "relevantes": [
+        "MNSEE.003.0002"
+      ]
+    },
+    {
+      "id": "cat_02",
+      "tarefa": "categoria",
+      "texto_pt": "Apito",
+      "texto_en": "wooden whistle flute musical instrument",
+      "criterio": "catalogo_identificação_museológica == 'Apito'",
+      "relevantes": [
+        "MNSEE.003.0026",
+        "MNSEE.003.0027",
+        "MNSEE.003.0028",
+        "MNSEE.003.0029"
+      ]
+    },
+    {
+      "id": "cat_03",
+      "tarefa": "categoria",
+      "texto_pt": "Arco",
+      "texto_en": "wooden bow weapon",
+      "criterio": "catalogo_identificação_museológica == 'Arco'",
+      "relevantes": [
+        "MNSEE.003.0008",
+        "MNSEE.003.0009"
+      ]
+    },
+    {
+      "id": "cat_04",
+      "tarefa": "categoria",
+      "texto_pt": "Arco de boca",
+      "texto_en": "wooden musical bow instrument",
+      "criterio": "catalogo_identificação_museológica == 'Arco de boca'",
+      "relevantes": [
+        "MNSEE.003.0010",
+        "MNSEE.003.0034"
+      ]
+    },
+    {
+      "id": "cat_05",
+      "tarefa": "categoria",
+      "texto_pt": "Borduna",
+      "texto_en": "carved wooden war club weapon",
+      "criterio": "catalogo_identificação_museológica == 'Borduna'",
+      "relevantes": [
+        "MNSEE.003.0003",
+        "MNSEE.003.0004",
+        "MNSEE.003.0005",
+        "MNSEE.003.0006"
+      ]
+    },
+    {
+      "id": "cat_06",
+      "tarefa": "categoria",
+      "texto_pt": "Cocar",
+      "texto_en": "indigenous feather and woven headdress crown",
+      "criterio": "catalogo_identificação_museológica == 'Cocar'",
+      "relevantes": [
+        "MNSEE.003.0021",
+        "MNSEE.003.0022",
+        "MNSEE.003.0023",
+        "MNSEE.003.0024",
+        "MNSEE.003.0025"
+      ]
+    },
+    {
+      "id": "cat_07",
+      "tarefa": "categoria",
+      "texto_pt": "Cordão",
+      "texto_en": "seed and wool necklace cord",
+      "criterio": "catalogo_identificação_museológica == 'Cordão'",
+      "relevantes": [
+        "MNSEE.003.0030",
+        "MNSEE.003.0031",
+        "MNSEE.003.0032",
+        "MNSEE.003.0033"
+      ]
+    },
+    {
+      "id": "cat_08",
+      "tarefa": "categoria",
+      "texto_pt": "Crânio",
+      "texto_en": "animal monkey skull bone",
+      "criterio": "catalogo_identificação_museológica == 'Crânio'",
+      "relevantes": [
+        "MNSEE.003.0017"
+      ]
+    },
+    {
+      "id": "cat_09",
+      "tarefa": "categoria",
+      "texto_pt": "Flecha",
+      "texto_en": "wooden arrow weapon",
+      "criterio": "catalogo_identificação_museológica == 'Flecha'",
+      "relevantes": [
+        "MNSEE.003.0007"
+      ]
+    },
+    {
+      "id": "cat_10",
+      "tarefa": "categoria",
+      "texto_pt": "Maracá",
+      "texto_en": "maraca gourd rattle musical instrument",
+      "criterio": "catalogo_identificação_museológica == 'Maracá'",
+      "relevantes": [
+        "MNSEE.003.0011",
+        "MNSEE.003.0012",
+        "MNSEE.003.0013",
+        "MNSEE.003.0014",
+        "MNSEE.003.0015",
+        "MNSEE.003.0016"
+      ]
+    },
+    {
+      "id": "cat_11",
+      "tarefa": "categoria",
+      "texto_pt": "Peneira",
+      "texto_en": "woven plant fiber sieve basket",
+      "criterio": "catalogo_identificação_museológica == 'Peneira'",
+      "relevantes": [
+        "MNSEE.003.0001"
+      ]
+    },
+    {
+      "id": "cat_12",
+      "tarefa": "categoria",
+      "texto_pt": "Saia",
+      "texto_en": "woven cotton and feather skirt",
+      "criterio": "catalogo_identificação_museológica == 'Saia'",
+      "relevantes": [
+        "MNSEE.003.0019",
+        "MNSEE.003.0020",
+        "MNSEE.003.0035"
+      ]
+    },
+    {
+      "id": "cat_13",
+      "tarefa": "categoria",
+      "texto_pt": "Taquara",
+      "texto_en": "bamboo stamping tube rhythm instrument",
+      "criterio": "catalogo_identificação_museológica == 'Taquara'",
+      "relevantes": [
+        "MNSEE.003.0018"
+      ]
+    }
+  ],
+  "consultas_linguagem_natural": [
+    {
+      "id": "ln_01",
+      "tarefa": "linguagem_natural",
+      "texto_pt": "instrumentos musicais utilizados em cerimônias",
+      "texto_en": "musical instruments used in ceremonies and rituals",
+      "criterio": "Objetos musicais e sonoros rituais (Maracá, Arco de boca, Taquara, Apito)",
+      "relevantes": [
+        "MNSEE.003.0010",
+        "MNSEE.003.0011",
+        "MNSEE.003.0012",
+        "MNSEE.003.0013",
+        "MNSEE.003.0014",
+        "MNSEE.003.0015",
+        "MNSEE.003.0016",
+        "MNSEE.003.0018",
+        "MNSEE.003.0026",
+        "MNSEE.003.0027",
+        "MNSEE.003.0028",
+        "MNSEE.003.0029",
+        "MNSEE.003.0034"
+      ]
+    },
+    {
+      "id": "ln_02",
+      "tarefa": "linguagem_natural",
+      "texto_pt": "objetos utilizados em cerimônias religiosas",
+      "texto_en": "objects used in religious ceremonies and rituals",
+      "criterio": "Objetos com função Religioso / Ritualístico no catálogo",
+      "relevantes": [
+        "MNSEE.003.0010",
+        "MNSEE.003.0011",
+        "MNSEE.003.0012",
+        "MNSEE.003.0013",
+        "MNSEE.003.0014",
+        "MNSEE.003.0015",
+        "MNSEE.003.0016",
+        "MNSEE.003.0018",
+        "MNSEE.003.0019",
+        "MNSEE.003.0020",
+        "MNSEE.003.0021",
+        "MNSEE.003.0022",
+        "MNSEE.003.0023",
+        "MNSEE.003.0024",
+        "MNSEE.003.0025",
+        "MNSEE.003.0026",
+        "MNSEE.003.0027",
+        "MNSEE.003.0028",
+        "MNSEE.003.0029",
+        "MNSEE.003.0034"
+      ]
+    },
+    {
+      "id": "ln_03",
+      "tarefa": "linguagem_natural",
+      "texto_pt": "armas de madeira talhada usadas na retomada de território e defesa",
+      "texto_en": "carved wooden weapons used in territory reclamation and defense",
+      "criterio": "Objetos com função Arma || Retomada (Bordunas, Flecha, Arco)",
+      "relevantes": [
+        "MNSEE.003.0003",
+        "MNSEE.003.0004",
+        "MNSEE.003.0005",
+        "MNSEE.003.0006",
+        "MNSEE.003.0007",
+        "MNSEE.003.0008",
+        "MNSEE.003.0009"
+      ]
+    },
+    {
+      "id": "ln_04",
+      "tarefa": "linguagem_natural",
+      "texto_pt": "instrumentos de sopro usados por xamãs para reza e comunicação",
+      "texto_en": "wooden wind whistle instruments used by shamans for prayer and communication",
+      "criterio": "Objetos com função Comunicação (Apitos / Mimby)",
+      "relevantes": [
+        "MNSEE.003.0026",
+        "MNSEE.003.0027",
+        "MNSEE.003.0028",
+        "MNSEE.003.0029"
+      ]
+    },
+    {
+      "id": "ln_05",
+      "tarefa": "linguagem_natural",
+      "texto_pt": "adornos de sementes e lã usados cruzados no peito para proteção",
+      "texto_en": "seed and wool necklaces worn crossed on the chest for protection",
+      "criterio": "Objetos com função Proteção (Cordões / Jeha-saha)",
+      "relevantes": [
+        "MNSEE.003.0030",
+        "MNSEE.003.0031",
+        "MNSEE.003.0032",
+        "MNSEE.003.0033"
+      ]
+    },
+    {
+      "id": "ln_06",
+      "tarefa": "linguagem_natural",
+      "texto_pt": "utensílios domésticos trançados em fibras vegetais para alimentos ou abanar o fogo",
+      "texto_en": "household utensils woven from plant fibers for food preparation or fanning fire",
+      "criterio": "Objetos com função Utilitário (Peneira e Abanador)",
+      "relevantes": [
+        "MNSEE.003.0001",
+        "MNSEE.003.0002"
+      ]
+    },
+    {
+      "id": "ln_07",
+      "tarefa": "linguagem_natural",
+      "texto_pt": "vestimentas e adornos de cabeça usados em encontros políticos e rituais",
+      "texto_en": "garments skirts and headdresses worn in political meetings and rituals",
+      "criterio": "Objetos com função Político (Saias e Cocares)",
+      "relevantes": [
+        "MNSEE.003.0019",
+        "MNSEE.003.0020",
+        "MNSEE.003.0021",
+        "MNSEE.003.0022",
+        "MNSEE.003.0023",
+        "MNSEE.003.0024",
+        "MNSEE.003.0025",
+        "MNSEE.003.0035"
+      ]
+    },
+    {
+      "id": "ln_08",
+      "tarefa": "linguagem_natural",
+      "texto_pt": "chocalhos feitos de cabaça com fios de lã coloridos",
+      "texto_en": "gourd rattles with colorful wool threads",
+      "criterio": "Objetos cujo material principal é Cabaça (Maracás / Mbaraka)",
+      "relevantes": [
+        "MNSEE.003.0011",
+        "MNSEE.003.0012",
+        "MNSEE.003.0013",
+        "MNSEE.003.0014",
+        "MNSEE.003.0015",
+        "MNSEE.003.0016"
+      ]
+    },
+    {
+      "id": "ln_09",
+      "tarefa": "linguagem_natural",
+      "texto_pt": "objeto osteológico usado para fins curativos e terapêuticos",
+      "texto_en": "bone skull object used for healing and therapeutic purposes",
+      "criterio": "Objetos com função Curativo || Terapeutico (Crânio / Ka'i-ankãgue)",
+      "relevantes": [
+        "MNSEE.003.0017"
+      ]
+    },
+    {
+      "id": "ln_10",
+      "tarefa": "linguagem_natural",
+      "texto_pt": "instrumento de corda única com dois arcos de madeira que se cruzam",
+      "texto_en": "single string musical instrument with two crossed wooden bows",
+      "criterio": "Arcos musicais / Arco de boca (Yvyra-pa'i)",
+      "relevantes": [
+        "MNSEE.003.0010",
+        "MNSEE.003.0034"
+      ]
+    }
+  ],
+  "consultas_texto": [
+    {
+      "id": "cat_01",
+      "tarefa": "categoria",
+      "texto_pt": "Abanador",
+      "texto_en": "woven palm leaf fan",
+      "criterio": "catalogo_identificação_museológica == 'Abanador'",
+      "relevantes": [
+        "MNSEE.003.0002"
+      ]
+    },
+    {
+      "id": "cat_02",
+      "tarefa": "categoria",
+      "texto_pt": "Apito",
+      "texto_en": "wooden whistle flute musical instrument",
+      "criterio": "catalogo_identificação_museológica == 'Apito'",
+      "relevantes": [
+        "MNSEE.003.0026",
+        "MNSEE.003.0027",
+        "MNSEE.003.0028",
+        "MNSEE.003.0029"
+      ]
+    },
+    {
+      "id": "cat_03",
+      "tarefa": "categoria",
+      "texto_pt": "Arco",
+      "texto_en": "wooden bow weapon",
+      "criterio": "catalogo_identificação_museológica == 'Arco'",
+      "relevantes": [
+        "MNSEE.003.0008",
+        "MNSEE.003.0009"
+      ]
+    },
+    {
+      "id": "cat_04",
+      "tarefa": "categoria",
+      "texto_pt": "Arco de boca",
+      "texto_en": "wooden musical bow instrument",
+      "criterio": "catalogo_identificação_museológica == 'Arco de boca'",
+      "relevantes": [
+        "MNSEE.003.0010",
+        "MNSEE.003.0034"
+      ]
+    },
+    {
+      "id": "cat_05",
+      "tarefa": "categoria",
+      "texto_pt": "Borduna",
+      "texto_en": "carved wooden war club weapon",
+      "criterio": "catalogo_identificação_museológica == 'Borduna'",
+      "relevantes": [
+        "MNSEE.003.0003",
+        "MNSEE.003.0004",
+        "MNSEE.003.0005",
+        "MNSEE.003.0006"
+      ]
+    },
+    {
+      "id": "cat_06",
+      "tarefa": "categoria",
+      "texto_pt": "Cocar",
+      "texto_en": "indigenous feather and woven headdress crown",
+      "criterio": "catalogo_identificação_museológica == 'Cocar'",
+      "relevantes": [
+        "MNSEE.003.0021",
+        "MNSEE.003.0022",
+        "MNSEE.003.0023",
+        "MNSEE.003.0024",
+        "MNSEE.003.0025"
+      ]
+    },
+    {
+      "id": "cat_07",
+      "tarefa": "categoria",
+      "texto_pt": "Cordão",
+      "texto_en": "seed and wool necklace cord",
+      "criterio": "catalogo_identificação_museológica == 'Cordão'",
+      "relevantes": [
+        "MNSEE.003.0030",
+        "MNSEE.003.0031",
+        "MNSEE.003.0032",
+        "MNSEE.003.0033"
+      ]
+    },
+    {
+      "id": "cat_08",
+      "tarefa": "categoria",
+      "texto_pt": "Crânio",
+      "texto_en": "animal monkey skull bone",
+      "criterio": "catalogo_identificação_museológica == 'Crânio'",
+      "relevantes": [
+        "MNSEE.003.0017"
+      ]
+    },
+    {
+      "id": "cat_09",
+      "tarefa": "categoria",
+      "texto_pt": "Flecha",
+      "texto_en": "wooden arrow weapon",
+      "criterio": "catalogo_identificação_museológica == 'Flecha'",
+      "relevantes": [
+        "MNSEE.003.0007"
+      ]
+    },
+    {
+      "id": "cat_10",
+      "tarefa": "categoria",
+      "texto_pt": "Maracá",
+      "texto_en": "maraca gourd rattle musical instrument",
+      "criterio": "catalogo_identificação_museológica == 'Maracá'",
+      "relevantes": [
+        "MNSEE.003.0011",
+        "MNSEE.003.0012",
+        "MNSEE.003.0013",
+        "MNSEE.003.0014",
+        "MNSEE.003.0015",
+        "MNSEE.003.0016"
+      ]
+    },
+    {
+      "id": "cat_11",
+      "tarefa": "categoria",
+      "texto_pt": "Peneira",
+      "texto_en": "woven plant fiber sieve basket",
+      "criterio": "catalogo_identificação_museológica == 'Peneira'",
+      "relevantes": [
+        "MNSEE.003.0001"
+      ]
+    },
+    {
+      "id": "cat_12",
+      "tarefa": "categoria",
+      "texto_pt": "Saia",
+      "texto_en": "woven cotton and feather skirt",
+      "criterio": "catalogo_identificação_museológica == 'Saia'",
+      "relevantes": [
+        "MNSEE.003.0019",
+        "MNSEE.003.0020",
+        "MNSEE.003.0035"
+      ]
+    },
+    {
+      "id": "cat_13",
+      "tarefa": "categoria",
+      "texto_pt": "Taquara",
+      "texto_en": "bamboo stamping tube rhythm instrument",
+      "criterio": "catalogo_identificação_museológica == 'Taquara'",
+      "relevantes": [
+        "MNSEE.003.0018"
+      ]
+    },
+    {
+      "id": "ln_01",
+      "tarefa": "linguagem_natural",
+      "texto_pt": "instrumentos musicais utilizados em cerimônias",
+      "texto_en": "musical instruments used in ceremonies and rituals",
+      "criterio": "Objetos musicais e sonoros rituais (Maracá, Arco de boca, Taquara, Apito)",
+      "relevantes": [
+        "MNSEE.003.0010",
+        "MNSEE.003.0011",
+        "MNSEE.003.0012",
+        "MNSEE.003.0013",
+        "MNSEE.003.0014",
+        "MNSEE.003.0015",
+        "MNSEE.003.0016",
+        "MNSEE.003.0018",
+        "MNSEE.003.0026",
+        "MNSEE.003.0027",
+        "MNSEE.003.0028",
+        "MNSEE.003.0029",
+        "MNSEE.003.0034"
+      ]
+    },
+    {
+      "id": "ln_02",
+      "tarefa": "linguagem_natural",
+      "texto_pt": "objetos utilizados em cerimônias religiosas",
+      "texto_en": "objects used in religious ceremonies and rituals",
+      "criterio": "Objetos com função Religioso / Ritualístico no catálogo",
+      "relevantes": [
+        "MNSEE.003.0010",
+        "MNSEE.003.0011",
+        "MNSEE.003.0012",
+        "MNSEE.003.0013",
+        "MNSEE.003.0014",
+        "MNSEE.003.0015",
+        "MNSEE.003.0016",
+        "MNSEE.003.0018",
+        "MNSEE.003.0019",
+        "MNSEE.003.0020",
+        "MNSEE.003.0021",
+        "MNSEE.003.0022",
+        "MNSEE.003.0023",
+        "MNSEE.003.0024",
+        "MNSEE.003.0025",
+        "MNSEE.003.0026",
+        "MNSEE.003.0027",
+        "MNSEE.003.0028",
+        "MNSEE.003.0029",
+        "MNSEE.003.0034"
+      ]
+    },
+    {
+      "id": "ln_03",
+      "tarefa": "linguagem_natural",
+      "texto_pt": "armas de madeira talhada usadas na retomada de território e defesa",
+      "texto_en": "carved wooden weapons used in territory reclamation and defense",
+      "criterio": "Objetos com função Arma || Retomada (Bordunas, Flecha, Arco)",
+      "relevantes": [
+        "MNSEE.003.0003",
+        "MNSEE.003.0004",
+        "MNSEE.003.0005",
+        "MNSEE.003.0006",
+        "MNSEE.003.0007",
+        "MNSEE.003.0008",
+        "MNSEE.003.0009"
+      ]
+    },
+    {
+      "id": "ln_04",
+      "tarefa": "linguagem_natural",
+      "texto_pt": "instrumentos de sopro usados por xamãs para reza e comunicação",
+      "texto_en": "wooden wind whistle instruments used by shamans for prayer and communication",
+      "criterio": "Objetos com função Comunicação (Apitos / Mimby)",
+      "relevantes": [
+        "MNSEE.003.0026",
+        "MNSEE.003.0027",
+        "MNSEE.003.0028",
+        "MNSEE.003.0029"
+      ]
+    },
+    {
+      "id": "ln_05",
+      "tarefa": "linguagem_natural",
+      "texto_pt": "adornos de sementes e lã usados cruzados no peito para proteção",
+      "texto_en": "seed and wool necklaces worn crossed on the chest for protection",
+      "criterio": "Objetos com função Proteção (Cordões / Jeha-saha)",
+      "relevantes": [
+        "MNSEE.003.0030",
+        "MNSEE.003.0031",
+        "MNSEE.003.0032",
+        "MNSEE.003.0033"
+      ]
+    },
+    {
+      "id": "ln_06",
+      "tarefa": "linguagem_natural",
+      "texto_pt": "utensílios domésticos trançados em fibras vegetais para alimentos ou abanar o fogo",
+      "texto_en": "household utensils woven from plant fibers for food preparation or fanning fire",
+      "criterio": "Objetos com função Utilitário (Peneira e Abanador)",
+      "relevantes": [
+        "MNSEE.003.0001",
+        "MNSEE.003.0002"
+      ]
+    },
+    {
+      "id": "ln_07",
+      "tarefa": "linguagem_natural",
+      "texto_pt": "vestimentas e adornos de cabeça usados em encontros políticos e rituais",
+      "texto_en": "garments skirts and headdresses worn in political meetings and rituals",
+      "criterio": "Objetos com função Político (Saias e Cocares)",
+      "relevantes": [
+        "MNSEE.003.0019",
+        "MNSEE.003.0020",
+        "MNSEE.003.0021",
+        "MNSEE.003.0022",
+        "MNSEE.003.0023",
+        "MNSEE.003.0024",
+        "MNSEE.003.0025",
+        "MNSEE.003.0035"
+      ]
+    },
+    {
+      "id": "ln_08",
+      "tarefa": "linguagem_natural",
+      "texto_pt": "chocalhos feitos de cabaça com fios de lã coloridos",
+      "texto_en": "gourd rattles with colorful wool threads",
+      "criterio": "Objetos cujo material principal é Cabaça (Maracás / Mbaraka)",
+      "relevantes": [
+        "MNSEE.003.0011",
+        "MNSEE.003.0012",
+        "MNSEE.003.0013",
+        "MNSEE.003.0014",
+        "MNSEE.003.0015",
+        "MNSEE.003.0016"
+      ]
+    },
+    {
+      "id": "ln_09",
+      "tarefa": "linguagem_natural",
+      "texto_pt": "objeto osteológico usado para fins curativos e terapêuticos",
+      "texto_en": "bone skull object used for healing and therapeutic purposes",
+      "criterio": "Objetos com função Curativo || Terapeutico (Crânio / Ka'i-ankãgue)",
+      "relevantes": [
+        "MNSEE.003.0017"
+      ]
+    },
+    {
+      "id": "ln_10",
+      "tarefa": "linguagem_natural",
+      "texto_pt": "instrumento de corda única com dois arcos de madeira que se cruzam",
+      "texto_en": "single string musical instrument with two crossed wooden bows",
+      "criterio": "Arcos musicais / Arco de boca (Yvyra-pa'i)",
+      "relevantes": [
+        "MNSEE.003.0010",
+        "MNSEE.003.0034"
+      ]
+    }
+  ],
+  "consultas_imagem": [
+    {
+      "id": "img_MNSEE.003.0026",
+      "tarefa": "imagem_imagem",
+      "categoria": "Apito",
+      "item_id": "MNSEE.003.0026",
+      "image_id": "MN_003-10",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-10.jpg",
+      "relevantes": [
+        "MNSEE.003.0027",
+        "MNSEE.003.0028",
+        "MNSEE.003.0029"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0027",
+      "tarefa": "imagem_imagem",
+      "categoria": "Apito",
+      "item_id": "MNSEE.003.0027",
+      "image_id": "MN_003-19",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-19.jpg",
+      "relevantes": [
+        "MNSEE.003.0026",
+        "MNSEE.003.0028",
+        "MNSEE.003.0029"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0028",
+      "tarefa": "imagem_imagem",
+      "categoria": "Apito",
+      "item_id": "MNSEE.003.0028",
+      "image_id": "MN_003-15",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-15.jpg",
+      "relevantes": [
+        "MNSEE.003.0026",
+        "MNSEE.003.0027",
+        "MNSEE.003.0029"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0029",
+      "tarefa": "imagem_imagem",
+      "categoria": "Apito",
+      "item_id": "MNSEE.003.0029",
+      "image_id": "MN_003-73",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-73.jpg",
+      "relevantes": [
+        "MNSEE.003.0026",
+        "MNSEE.003.0027",
+        "MNSEE.003.0028"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0008",
+      "tarefa": "imagem_imagem",
+      "categoria": "Arco",
+      "item_id": "MNSEE.003.0008",
+      "image_id": "MN_003-98",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-98.jpg",
+      "relevantes": [
+        "MNSEE.003.0009"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0009",
+      "tarefa": "imagem_imagem",
+      "categoria": "Arco",
+      "item_id": "MNSEE.003.0009",
+      "image_id": "MN_003-100",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-100.jpg",
+      "relevantes": [
+        "MNSEE.003.0008"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0010",
+      "tarefa": "imagem_imagem",
+      "categoria": "Arco de boca",
+      "item_id": "MNSEE.003.0010",
+      "image_id": "MN_003-76",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-76.jpg",
+      "relevantes": [
+        "MNSEE.003.0034"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0034",
+      "tarefa": "imagem_imagem",
+      "categoria": "Arco de boca",
+      "item_id": "MNSEE.003.0034",
+      "image_id": "MN_003-78",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-78.jpg",
+      "relevantes": [
+        "MNSEE.003.0010"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0003",
+      "tarefa": "imagem_imagem",
+      "categoria": "Borduna",
+      "item_id": "MNSEE.003.0003",
+      "image_id": "MN_003-93",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-93.jpg",
+      "relevantes": [
+        "MNSEE.003.0004",
+        "MNSEE.003.0005",
+        "MNSEE.003.0006"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0004",
+      "tarefa": "imagem_imagem",
+      "categoria": "Borduna",
+      "item_id": "MNSEE.003.0004",
+      "image_id": "MN_003-96",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-96.jpg",
+      "relevantes": [
+        "MNSEE.003.0003",
+        "MNSEE.003.0005",
+        "MNSEE.003.0006"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0005",
+      "tarefa": "imagem_imagem",
+      "categoria": "Borduna",
+      "item_id": "MNSEE.003.0005",
+      "image_id": "MN_003-102",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-102.jpg",
+      "relevantes": [
+        "MNSEE.003.0003",
+        "MNSEE.003.0004",
+        "MNSEE.003.0006"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0006",
+      "tarefa": "imagem_imagem",
+      "categoria": "Borduna",
+      "item_id": "MNSEE.003.0006",
+      "image_id": "MN_003-106",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-106.jpg",
+      "relevantes": [
+        "MNSEE.003.0003",
+        "MNSEE.003.0004",
+        "MNSEE.003.0005"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0021",
+      "tarefa": "imagem_imagem",
+      "categoria": "Cocar",
+      "item_id": "MNSEE.003.0021",
+      "image_id": "MN_003-79",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-79.jpg",
+      "relevantes": [
+        "MNSEE.003.0022",
+        "MNSEE.003.0023",
+        "MNSEE.003.0024",
+        "MNSEE.003.0025"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0022",
+      "tarefa": "imagem_imagem",
+      "categoria": "Cocar",
+      "item_id": "MNSEE.003.0022",
+      "image_id": "MN_003-59",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-59.jpg",
+      "relevantes": [
+        "MNSEE.003.0021",
+        "MNSEE.003.0023",
+        "MNSEE.003.0024",
+        "MNSEE.003.0025"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0023",
+      "tarefa": "imagem_imagem",
+      "categoria": "Cocar",
+      "item_id": "MNSEE.003.0023",
+      "image_id": "MN_003-54",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-54.jpg",
+      "relevantes": [
+        "MNSEE.003.0021",
+        "MNSEE.003.0022",
+        "MNSEE.003.0024",
+        "MNSEE.003.0025"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0024",
+      "tarefa": "imagem_imagem",
+      "categoria": "Cocar",
+      "item_id": "MNSEE.003.0024",
+      "image_id": "MN_003-51",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-51.jpg",
+      "relevantes": [
+        "MNSEE.003.0021",
+        "MNSEE.003.0022",
+        "MNSEE.003.0023",
+        "MNSEE.003.0025"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0025",
+      "tarefa": "imagem_imagem",
+      "categoria": "Cocar",
+      "item_id": "MNSEE.003.0025",
+      "image_id": "MN_003-43",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-43.jpg",
+      "relevantes": [
+        "MNSEE.003.0021",
+        "MNSEE.003.0022",
+        "MNSEE.003.0023",
+        "MNSEE.003.0024"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0030",
+      "tarefa": "imagem_imagem",
+      "categoria": "Cordão",
+      "item_id": "MNSEE.003.0030",
+      "image_id": "MN_003-66",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-66.jpg",
+      "relevantes": [
+        "MNSEE.003.0031",
+        "MNSEE.003.0032",
+        "MNSEE.003.0033"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0031",
+      "tarefa": "imagem_imagem",
+      "categoria": "Cordão",
+      "item_id": "MNSEE.003.0031",
+      "image_id": "MN_003-75",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-75.jpg",
+      "relevantes": [
+        "MNSEE.003.0030",
+        "MNSEE.003.0032",
+        "MNSEE.003.0033"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0032",
+      "tarefa": "imagem_imagem",
+      "categoria": "Cordão",
+      "item_id": "MNSEE.003.0032",
+      "image_id": "MN_003-69",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-69.jpg",
+      "relevantes": [
+        "MNSEE.003.0030",
+        "MNSEE.003.0031",
+        "MNSEE.003.0033"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0033",
+      "tarefa": "imagem_imagem",
+      "categoria": "Cordão",
+      "item_id": "MNSEE.003.0033",
+      "image_id": "MN_003-71",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-71.jpg",
+      "relevantes": [
+        "MNSEE.003.0030",
+        "MNSEE.003.0031",
+        "MNSEE.003.0032"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0011",
+      "tarefa": "imagem_imagem",
+      "categoria": "Maracá",
+      "item_id": "MNSEE.003.0011",
+      "image_id": "MN_003-41",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-41.jpg",
+      "relevantes": [
+        "MNSEE.003.0012",
+        "MNSEE.003.0013",
+        "MNSEE.003.0014",
+        "MNSEE.003.0015",
+        "MNSEE.003.0016"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0012",
+      "tarefa": "imagem_imagem",
+      "categoria": "Maracá",
+      "item_id": "MNSEE.003.0012",
+      "image_id": "MN_003-33",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-33.jpg",
+      "relevantes": [
+        "MNSEE.003.0011",
+        "MNSEE.003.0013",
+        "MNSEE.003.0014",
+        "MNSEE.003.0015",
+        "MNSEE.003.0016"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0013",
+      "tarefa": "imagem_imagem",
+      "categoria": "Maracá",
+      "item_id": "MNSEE.003.0013",
+      "image_id": "MN_003-35",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-35.jpg",
+      "relevantes": [
+        "MNSEE.003.0011",
+        "MNSEE.003.0012",
+        "MNSEE.003.0014",
+        "MNSEE.003.0015",
+        "MNSEE.003.0016"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0014",
+      "tarefa": "imagem_imagem",
+      "categoria": "Maracá",
+      "item_id": "MNSEE.003.0014",
+      "image_id": "MN_003-28",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-28.jpg",
+      "relevantes": [
+        "MNSEE.003.0011",
+        "MNSEE.003.0012",
+        "MNSEE.003.0013",
+        "MNSEE.003.0015",
+        "MNSEE.003.0016"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0015",
+      "tarefa": "imagem_imagem",
+      "categoria": "Maracá",
+      "item_id": "MNSEE.003.0015",
+      "image_id": "MN_003-31",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-31.jpg",
+      "relevantes": [
+        "MNSEE.003.0011",
+        "MNSEE.003.0012",
+        "MNSEE.003.0013",
+        "MNSEE.003.0014",
+        "MNSEE.003.0016"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0016",
+      "tarefa": "imagem_imagem",
+      "categoria": "Maracá",
+      "item_id": "MNSEE.003.0016",
+      "image_id": "MN_003-38",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-38.jpg",
+      "relevantes": [
+        "MNSEE.003.0011",
+        "MNSEE.003.0012",
+        "MNSEE.003.0013",
+        "MNSEE.003.0014",
+        "MNSEE.003.0015"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0019",
+      "tarefa": "imagem_imagem",
+      "categoria": "Saia",
+      "item_id": "MNSEE.003.0019",
+      "image_id": "MN_003-108",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-108.jpg",
+      "relevantes": [
+        "MNSEE.003.0020",
+        "MNSEE.003.0035"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0020",
+      "tarefa": "imagem_imagem",
+      "categoria": "Saia",
+      "item_id": "MNSEE.003.0020",
+      "image_id": "MN_003-112",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-112.jpg",
+      "relevantes": [
+        "MNSEE.003.0019",
+        "MNSEE.003.0035"
+      ]
+    },
+    {
+      "id": "img_MNSEE.003.0035",
+      "tarefa": "imagem_imagem",
+      "categoria": "Saia",
+      "item_id": "MNSEE.003.0035",
+      "image_id": "MN_003-110",
+      "caminho_imagem": "Base Museu Nacional/MN_003/MN 003-110.jpg",
+      "relevantes": [
+        "MNSEE.003.0019",
+        "MNSEE.003.0020"
+      ]
+    }
+  ]
 }

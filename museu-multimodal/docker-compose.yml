@@ -9,5 +9,23 @@ services:
       - qdrant_storage:/qdrant/storage
     restart: unless-stopped
 
+  api:
+    build: .
+    container_name: museu-api
+    depends_on:
+      - qdrant
+    ports:
+      - "8000:8000"
+    environment:
+      - QDRANT_URL=http://qdrant:6333
+      - DEVICE=${DEVICE:-cpu}
+      - CORS_ORIGINS=${CORS_ORIGINS:-http://localhost:3000,http://127.0.0.1:3000}
+    volumes:
+      - ./data:/workspace/museu-multimodal/data
+      - ../Base Museu Nacional:/workspace/Base Museu Nacional:ro
+      - hf_cache:/root/.cache/huggingface
+    restart: unless-stopped
+
 volumes:
   qdrant_storage:
+  hf_cache:

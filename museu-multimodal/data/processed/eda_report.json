@@ -1,0 +1,507 @@
+{
+  "resumo_geral": {
+    "total_imagens_validas": 113,
+    "total_objetos_unicos": 35,
+    "imagens_por_objeto": {
+      "min": 1,
+      "max": 8,
+      "media": 3.23,
+      "mediana": 2
+    },
+    "distribuicao_imagens_por_objeto": {
+      "1": 2,
+      "2": 16,
+      "3": 7,
+      "4": 3,
+      "5": 2,
+      "7": 4,
+      "8": 1
+    }
+  },
+  "consistencia_e_duplicatas": {
+    "MN_003": {
+      "linhas_csv": 113,
+      "arquivos_unicos_csv": 113,
+      "duplicatas_csv": 0,
+      "arquivos_no_disco": 113,
+      "no_csv_mas_ausentes_no_disco": [],
+      "no_disco_mas_ausentes_no_csv": []
+    }
+  },
+  "distribuicoes_por_objeto": {
+    "categorias": {
+      "Maracá": 6,
+      "Cocar": 5,
+      "Borduna": 4,
+      "Apito": 4,
+      "Cordão": 4,
+      "Saia": 3,
+      "Arco": 2,
+      "Arco de boca": 2,
+      "Peneira": 1,
+      "Abanador": 1,
+      "Flecha": 1,
+      "Crânio": 1,
+      "Taquara": 1
+    },
+    "categorias_por_imagem": {
+      "Cocar": 27,
+      "Apito": 20,
+      "Maracá": 15,
+      "Borduna": 11,
+      "Cordão": 8,
+      "Crânio": 7,
+      "Saia": 6,
+      "Peneira": 5,
+      "Arco": 4,
+      "Abanador": 3,
+      "Arco de boca": 3,
+      "Flecha": 2,
+      "Taquara": 2
+    },
+    "materiais": {
+      "Madeira": 14,
+      "Lã": 8,
+      "Cabaça": 6,
+      "Algodão": 4,
+      "Sementes": 4,
+      "Fibras vegetais": 3,
+      "Tecelagem": 3,
+      "Plumárias": 3,
+      "Taquara": 1,
+      "Madeira de cedro": 1,
+      "Osteológico": 1,
+      "Lona": 1
+    },
+    "funcoes": {
+      "Religioso": 13,
+      "Ritualistico": 8,
+      "Político": 8,
+      "Arma": 7,
+      "Ritualístico": 7,
+      "Retomada": 6,
+      "Ritual": 4,
+      "Comunicação": 4,
+      "Proteção": 4,
+      "Utilitário": 2,
+      "Conforto doméstico": 1,
+      "Caça": 1,
+      "Curativo": 1,
+      "Terapeutico": 1,
+      "Vestuário": 1
+    },
+    "tecnicas": {
+      "Talhado": 14,
+      "Não informada": 11,
+      "Costura": 7,
+      "Trançado": 3
+    },
+    "aldeias": {
+      "Aldeia Kurusu-Amba (Jaguapiré) -MS": 10,
+      "Aldeia Kambiy -MS": 8,
+      "Aldeia Guyra Kabiy - MS": 6,
+      "Aldeia Guaiviry - MS": 4,
+      "Aldeia Limão Verde -MS": 2,
+      "Guvyrá Cambé'y - MS": 1,
+      "Aldeia Itay - MS": 1,
+      "Rancho Jacará - MS": 1,
+      "Aldeia Amambai -MS": 1,
+      "Aldeia Rancho Jacará - MS": 1
+    }
+  },
+  "qualidade_descricoes": {
+    "descricao_catalogo_R2_palavras": {
+      "min": 6,
+      "max": 84,
+      "media": 27.6,
+      "mediana": 26
+    },
+    "descricao_catalogo_R2_caracteres": {
+      "min": 34,
+      "max": 466,
+      "media": 163.43,
+      "mediana": 154
+    },
+    "legenda_descricao_palavras": {
+      "min": 37,
+      "max": 65,
+      "media": 46.63,
+      "mediana": 44
+    },
+    "representacao_completa_R4_palavras": {
+      "min": 115,
+      "max": 220,
+      "media": 155.17,
+      "mediana": 150
+    },
+    "textos_R2_unicos": 32,
+    "textos_R4_unicos": 35
+  },
+  "qualidade_imagens": {
+    "megapixels": {
+      "min": 18.55,
+      "max": 34.89,
+      "media": 26.56,
+      "mediana": 25.69
+    },
+    "tamanho_mb": {
+      "min": 2.26,
+      "max": 15.46,
+      "media": 8.02,
+      "mediana": 7.0
+    },
+    "largura_px": {
+      "min": 3424,
+      "max": 7182,
+      "media": 5087.27,
+      "mediana": 4572
+    },
+    "altura_px": {
+      "min": 3940,
+      "max": 7360,
+      "media": 5421.93,
+      "mediana": 4908
+    },
+    "orientacao": {
+      "vertical": 61,
+      "horizontal": 52
+    }
+  },
+  "campos_e_valores_ausentes": {
+    "nome_arquivo": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "codigo_acervo": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_número_de_tombo": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_identificação_museológica": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_nome_da_coleção": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_descrição": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "nome_sem_extensao": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "titulo_colecao": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "descricao": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "palavras_chave": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "projeto": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "cidade": {
+      "ausentes": 113,
+      "preenchidos": 0,
+      "taxa_ausencia_pct": 100.0
+    },
+    "estado": {
+      "ausentes": 113,
+      "preenchidos": 0,
+      "taxa_ausencia_pct": 100.0
+    },
+    "pais": {
+      "ausentes": 113,
+      "preenchidos": 0,
+      "taxa_ausencia_pct": 100.0
+    },
+    "data_criacao": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "data_modificacao_xmp": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "data_metadados_xmp": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "fabricante_camera": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "modelo_camera": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "numero_serie_camera": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "lente": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "numero_serie_lente": {
+      "ausentes": 69,
+      "preenchidos": 44,
+      "taxa_ausencia_pct": 61.1
+    },
+    "arquivo_original": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "arquivo_raw": {
+      "ausentes": 14,
+      "preenchidos": 99,
+      "taxa_ausencia_pct": 12.4
+    },
+    "formato": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "extensao": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "largura_pixels": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "altura_pixels": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "orientacao_imagem": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "proporcao": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "megapixels": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "modo_cor": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "quantidade_frames": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "resolucao_x": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "resolucao_y": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "tamanho_bytes": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "tamanho_kb": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "tamanho_mb": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "data_modificacao_arquivo": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_identificação_local": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_material_suporte": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_técnica": {
+      "ausentes": 30,
+      "preenchidos": 83,
+      "taxa_ausencia_pct": 26.5
+    },
+    "catalogo_função": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_quantidade_de_componentes": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_grafismos": {
+      "ausentes": 113,
+      "preenchidos": 0,
+      "taxa_ausencia_pct": 100.0
+    },
+    "catalogo_dimensões": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_estado_de_conservação": {
+      "ausentes": 111,
+      "preenchidos": 2,
+      "taxa_ausencia_pct": 98.2
+    },
+    "catalogo_inscrições_e_marcas": {
+      "ausentes": 113,
+      "preenchidos": 0,
+      "taxa_ausencia_pct": 100.0
+    },
+    "catalogo_localização": {
+      "ausentes": 113,
+      "preenchidos": 0,
+      "taxa_ausencia_pct": 100.0
+    },
+    "catalogo_autor_artesão": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_povo": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_auto_denominação": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_aldeia": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_data_de_coleta": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_data_de_fabricação": {
+      "ausentes": 1,
+      "preenchidos": 112,
+      "taxa_ausencia_pct": 0.9
+    },
+    "catalogo_cedente": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_coletor": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_forma_de_aquisição": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_data_de_entrada_no_mn": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_data_de_tombamento": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_status": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_situação": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_histórico_administrativo": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_histórico_de_exposições": {
+      "ausentes": 113,
+      "preenchidos": 0,
+      "taxa_ausencia_pct": 100.0
+    },
+    "catalogo_documentação": {
+      "ausentes": 113,
+      "preenchidos": 0,
+      "taxa_ausencia_pct": 100.0
+    },
+    "catalogo_bibliografia": {
+      "ausentes": 0,
+      "preenchidos": 113,
+      "taxa_ausencia_pct": 0.0
+    },
+    "catalogo_notas_gerais": {
+      "ausentes": 29,
+      "preenchidos": 84,
+      "taxa_ausencia_pct": 25.7
+    }
+  }
+}

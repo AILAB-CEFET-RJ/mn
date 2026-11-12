@@ -8,11 +8,11 @@ from PIL import Image
 from qdrant_client import models
 
 from app.api.search import serialize
+from app.config import COLLECTION, REPO_ROOT, THUMBS_DIR
 
 router = APIRouter(tags=["itens"])
-ROOT = Path(__file__).resolve().parents[3]  # raiz do projeto (caminho_imagem é relativo a ela)
-CACHE = Path(__file__).resolve().parents[2] / "data" / "thumbs"
-COLLECTION = "museum_images"
+ROOT = REPO_ROOT  # raiz do projeto (caminho_imagem é relativo a ela)
+CACHE = THUMBS_DIR
 
 
 def _by(request: Request, field: str, value: str, limit: int = 100) -> list[dict]:
@@ -41,17 +41,22 @@ def get_image(image_id: str, request: Request, w: int = Query(0, ge=0, le=2000))
     pays = _by(request, "image_id", image_id, limit=1)
     if not pays:
         raise HTTPException(404, "Imagem não encontrada.")
-    path = ROOT / pays[0]["caminho_imagem"]
+    CACHE.mkdir(parents=True, exist_ok=True)
+    thumb = CACHE / f"{hashlib.sha1(image_id.encode()).hexdigest()}_{w}.jpg"
+    if w and thumb.is_file():
+        return FileResponse(thumb, headers={"Cache-Control": "public, max-age=86400"})
+    path = (ROOT / pays[0]["caminho_imagem"]).resolve()
+    try:
+        path.relative_to(ROOT)
+    except ValueError:
+        raise HTTPException(400, "Caminho de imagem fora do diretório permitido.")
     if not path.is_file():
         raise HTTPException(404, "Arquivo de imagem ausente no disco.")
     if not w:
         return FileResponse(path)
-    CACHE.mkdir(parents=True, exist_ok=True)
-    thumb = CACHE / f"{hashlib.sha1(image_id.encode()).hexdigest()}_{w}.jpg"
-    if not thumb.exists():
-        with Image.open(path) as im:
-            im.draft("RGB", (w * 2, w * 2))
-            im = im.convert("RGB")
-            im.thumbnail((w, w))
-            im.save(thumb, "JPEG", quality=85)
+    with Image.open(path) as im:
+        im.draft("RGB", (w * 2, w * 2))
+        im = im.convert("RGB")
+        im.thumbnail((w, w))
+        im.save(thumb, "JPEG", quality=85)
     return FileResponse(thumb, headers={"Cache-Control": "public, max-age=86400"})

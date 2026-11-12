@@ -1,0 +1,8 @@
+frontend/node_modules
+frontend/.next
+__pycache__
+*.pyc
+data/processed/*.ckpt.npz
+data/processed/*.cache.npz
+data/processed/*.tmp.npz
+

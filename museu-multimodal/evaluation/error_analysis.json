@@ -1,0 +1,650 @@
+{
+  "confusoes_visuais": {
+    "CLIP": {
+      "consultas": 30,
+      "erros_top1": 5,
+      "casos": [
+        {
+          "consulta": "MNSEE.003.0029",
+          "imagem": "MN_003-73",
+          "categoria_real": "Apito",
+          "top1": "MNSEE.003.0030",
+          "categoria_predita": "Cordão",
+          "materiais_em_comum": []
+        },
+        {
+          "consulta": "MNSEE.003.0021",
+          "imagem": "MN_003-79",
+          "categoria_real": "Cocar",
+          "top1": "MNSEE.003.0029",
+          "categoria_predita": "Apito",
+          "materiais_em_comum": []
+        },
+        {
+          "consulta": "MNSEE.003.0031",
+          "imagem": "MN_003-75",
+          "categoria_real": "Cordão",
+          "top1": "MNSEE.003.0029",
+          "categoria_predita": "Apito",
+          "materiais_em_comum": []
+        },
+        {
+          "consulta": "MNSEE.003.0032",
+          "imagem": "MN_003-69",
+          "categoria_real": "Cordão",
+          "top1": "MNSEE.003.0025",
+          "categoria_predita": "Cocar",
+          "materiais_em_comum": [
+            "Lã"
+          ]
+        },
+        {
+          "consulta": "MNSEE.003.0019",
+          "imagem": "MN_003-108",
+          "categoria_real": "Saia",
+          "top1": "MNSEE.003.0032",
+          "categoria_predita": "Cordão",
+          "materiais_em_comum": []
+        }
+      ]
+    },
+    "SigLIP": {
+      "consultas": 30,
+      "erros_top1": 6,
+      "casos": [
+        {
+          "consulta": "MNSEE.003.0029",
+          "imagem": "MN_003-73",
+          "categoria_real": "Apito",
+          "top1": "MNSEE.003.0030",
+          "categoria_predita": "Cordão",
+          "materiais_em_comum": []
+        },
+        {
+          "consulta": "MNSEE.003.0010",
+          "imagem": "MN_003-76",
+          "categoria_real": "Arco de boca",
+          "top1": "MNSEE.003.0008",
+          "categoria_predita": "Arco",
+          "materiais_em_comum": [
+            "Madeira"
+          ]
+        },
+        {
+          "consulta": "MNSEE.003.0006",
+          "imagem": "MN_003-106",
+          "categoria_real": "Borduna",
+          "top1": "MNSEE.003.0007",
+          "categoria_predita": "Flecha",
+          "materiais_em_comum": [
+            "Madeira"
+          ]
+        },
+        {
+          "consulta": "MNSEE.003.0021",
+          "imagem": "MN_003-79",
+          "categoria_real": "Cocar",
+          "top1": "MNSEE.003.0001",
+          "categoria_predita": "Peneira",
+          "materiais_em_comum": [
+            "Fibras vegetais"
+          ]
+        },
+        {
+          "consulta": "MNSEE.003.0032",
+          "imagem": "MN_003-69",
+          "categoria_real": "Cordão",
+          "top1": "MNSEE.003.0024",
+          "categoria_predita": "Cocar",
+          "materiais_em_comum": [
+            "Lã"
+          ]
+        },
+        {
+          "consulta": "MNSEE.003.0019",
+          "imagem": "MN_003-108",
+          "categoria_real": "Saia",
+          "top1": "MNSEE.003.0032",
+          "categoria_predita": "Cordão",
+          "materiais_em_comum": []
+        }
+      ]
+    }
+  },
+  "por_categoria": [
+    {
+      "categoria": "Abanador",
+      "objetos": 1,
+      "cobertura_termo_R2": 0,
+      "bm25_r2": 0.0,
+      "R2": 0.143,
+      "R1_siglip": 0.25,
+      "R3_siglip": 0.5,
+      "R4_text": 1.0
+    },
+    {
+      "categoria": "Apito",
+      "objetos": 4,
+      "cobertura_termo_R2": 0,
+      "bm25_r2": 0.0,
+      "R2": 0.025,
+      "R1_siglip": 0.85,
+      "R3_siglip": 0.267,
+      "R4_text": 1.0
+    },
+    {
+      "categoria": "Arco",
+      "objetos": 2,
+      "cobertura_termo_R2": 1,
+      "bm25_r2": 0.5,
+      "R2": 0.125,
+      "R1_siglip": 0.583,
+      "R3_siglip": 1.0,
+      "R4_text": 0.833
+    },
+    {
+      "categoria": "Arco de boca",
+      "objetos": 2,
+      "cobertura_termo_R2": 0.5,
+      "bm25_r2": 1.0,
+      "R2": 0.05,
+      "R1_siglip": 0.7,
+      "R3_siglip": 0.333,
+      "R4_text": 1.0
+    },
+    {
+      "categoria": "Borduna",
+      "objetos": 4,
+      "cobertura_termo_R2": 0,
+      "bm25_r2": 0.0,
+      "R2": 0.0,
+      "R1_siglip": 0.321,
+      "R3_siglip": 0.062,
+      "R4_text": 1.0
+    },
+    {
+      "categoria": "Cocar",
+      "objetos": 5,
+      "cobertura_termo_R2": 0,
+      "bm25_r2": 0.0,
+      "R2": 0.0,
+      "R1_siglip": 0.714,
+      "R3_siglip": 0.073,
+      "R4_text": 1.0
+    },
+    {
+      "categoria": "Cordão",
+      "objetos": 4,
+      "cobertura_termo_R2": 1,
+      "bm25_r2": 1.0,
+      "R2": 1.0,
+      "R1_siglip": 0.65,
+      "R3_siglip": 1.0,
+      "R4_text": 1.0
+    },
+    {
+      "categoria": "Crânio",
+      "objetos": 1,
+      "cobertura_termo_R2": 1,
+      "bm25_r2": 1.0,
+      "R2": 1.0,
+      "R1_siglip": 1.0,
+      "R3_siglip": 1.0,
+      "R4_text": 1.0
+    },
+    {
+      "categoria": "Flecha",
+      "objetos": 1,
+      "cobertura_termo_R2": 1,
+      "bm25_r2": 0.5,
+      "R2": 1.0,
+      "R1_siglip": 0.5,
+      "R3_siglip": 0.5,
+      "R4_text": 1.0
+    },
+    {
+      "categoria": "Maracá",
+      "objetos": 6,
+      "cobertura_termo_R2": 0,
+      "bm25_r2": 0.0,
+      "R2": 0.5,
+      "R1_siglip": 0.976,
+      "R3_siglip": 0.852,
+      "R4_text": 1.0
+    },
+    {
+      "categoria": "Peneira",
+      "objetos": 1,
+      "cobertura_termo_R2": 1,
+      "bm25_r2": 1.0,
+      "R2": 1.0,
+      "R1_siglip": 1.0,
+      "R3_siglip": 1.0,
+      "R4_text": 1.0
+    },
+    {
+      "categoria": "Saia",
+      "objetos": 3,
+      "cobertura_termo_R2": 0.3333,
+      "bm25_r2": 0.333,
+      "R2": 0.4,
+      "R1_siglip": 1.0,
+      "R3_siglip": 0.81,
+      "R4_text": 1.0
+    },
+    {
+      "categoria": "Taquara",
+      "objetos": 1,
+      "cobertura_termo_R2": 1,
+      "bm25_r2": 1.0,
+      "R2": 1.0,
+      "R1_siglip": 1.0,
+      "R3_siglip": 1.0,
+      "R4_text": 1.0
+    }
+  ],
+  "pt_vs_en": {
+    "CLIP": [
+      {
+        "id": "cat_01",
+        "consulta": "Abanador",
+        "pt": 0.0,
+        "en": 0.5,
+        "delta": 0.5
+      },
+      {
+        "id": "cat_02",
+        "consulta": "Apito",
+        "pt": 0.0,
+        "en": 0.134,
+        "delta": 0.134
+      },
+      {
+        "id": "cat_03",
+        "consulta": "Arco",
+        "pt": 1.0,
+        "en": 0.208,
+        "delta": -0.792
+      },
+      {
+        "id": "cat_04",
+        "consulta": "Arco de boca",
+        "pt": 0.0,
+        "en": 0.167,
+        "delta": 0.167
+      },
+      {
+        "id": "cat_05",
+        "consulta": "Borduna",
+        "pt": 0.256,
+        "en": 1.0,
+        "delta": 0.744
+      },
+      {
+        "id": "cat_06",
+        "consulta": "Cocar",
+        "pt": 0.0,
+        "en": 0.63,
+        "delta": 0.63
+      },
+      {
+        "id": "cat_07",
+        "consulta": "Cordão",
+        "pt": 0.0,
+        "en": 0.43,
+        "delta": 0.43
+      },
+      {
+        "id": "cat_08",
+        "consulta": "Crânio",
+        "pt": 0.0,
+        "en": 1.0,
+        "delta": 1.0
+      },
+      {
+        "id": "cat_09",
+        "consulta": "Flecha",
+        "pt": 1.0,
+        "en": 0.25,
+        "delta": -0.75
+      },
+      {
+        "id": "cat_10",
+        "consulta": "Maracá",
+        "pt": 0.017,
+        "en": 0.772,
+        "delta": 0.755
+      },
+      {
+        "id": "cat_11",
+        "consulta": "Peneira",
+        "pt": 0.2,
+        "en": 1.0,
+        "delta": 0.8
+      },
+      {
+        "id": "cat_12",
+        "consulta": "Saia",
+        "pt": 0.0,
+        "en": 1.0,
+        "delta": 1.0
+      },
+      {
+        "id": "cat_13",
+        "consulta": "Taquara",
+        "pt": 0.0,
+        "en": 1.0,
+        "delta": 1.0
+      },
+      {
+        "id": "ln_01",
+        "consulta": "instrumentos musicais utilizados em cerimônias",
+        "pt": 0.314,
+        "en": 0.486,
+        "delta": 0.172
+      },
+      {
+        "id": "ln_02",
+        "consulta": "objetos utilizados em cerimônias religiosas",
+        "pt": 0.879,
+        "en": 1.0,
+        "delta": 0.121
+      },
+      {
+        "id": "ln_03",
+        "consulta": "armas de madeira talhada usadas na retomada de território e defesa",
+        "pt": 0.14,
+        "en": 0.746,
+        "delta": 0.606
+      },
+      {
+        "id": "ln_04",
+        "consulta": "instrumentos de sopro usados por xamãs para reza e comunicação",
+        "pt": 0.225,
+        "en": 0.427,
+        "delta": 0.202
+      },
+      {
+        "id": "ln_05",
+        "consulta": "adornos de sementes e lã usados cruzados no peito para proteção",
+        "pt": 0.0,
+        "en": 0.097,
+        "delta": 0.097
+      },
+      {
+        "id": "ln_06",
+        "consulta": "utensílios domésticos trançados em fibras vegetais para alimentos ou abanar o fogo",
+        "pt": 0.5,
+        "en": 0.833,
+        "delta": 0.333
+      },
+      {
+        "id": "ln_07",
+        "consulta": "vestimentas e adornos de cabeça usados em encontros políticos e rituais",
+        "pt": 0.312,
+        "en": 1.0,
+        "delta": 0.688
+      },
+      {
+        "id": "ln_08",
+        "consulta": "chocalhos feitos de cabaça com fios de lã coloridos",
+        "pt": 0.405,
+        "en": 0.268,
+        "delta": -0.137
+      },
+      {
+        "id": "ln_09",
+        "consulta": "objeto osteológico usado para fins curativos e terapêuticos",
+        "pt": 1.0,
+        "en": 1.0,
+        "delta": 0.0
+      },
+      {
+        "id": "ln_10",
+        "consulta": "instrumento de corda única com dois arcos de madeira que se cruzam",
+        "pt": 0.05,
+        "en": 0.225,
+        "delta": 0.175
+      }
+    ],
+    "SigLIP": [
+      {
+        "id": "cat_01",
+        "consulta": "Abanador",
+        "pt": 0.25,
+        "en": 1.0,
+        "delta": 0.75
+      },
+      {
+        "id": "cat_02",
+        "consulta": "Apito",
+        "pt": 0.85,
+        "en": 0.332,
+        "delta": -0.518
+      },
+      {
+        "id": "cat_03",
+        "consulta": "Arco",
+        "pt": 0.583,
+        "en": 1.0,
+        "delta": 0.417
+      },
+      {
+        "id": "cat_04",
+        "consulta": "Arco de boca",
+        "pt": 0.7,
+        "en": 0.75,
+        "delta": 0.05
+      },
+      {
+        "id": "cat_05",
+        "consulta": "Borduna",
+        "pt": 0.321,
+        "en": 0.95,
+        "delta": 0.629
+      },
+      {
+        "id": "cat_06",
+        "consulta": "Cocar",
+        "pt": 0.714,
+        "en": 0.564,
+        "delta": -0.15
+      },
+      {
+        "id": "cat_07",
+        "consulta": "Cordão",
+        "pt": 0.65,
+        "en": 0.85,
+        "delta": 0.2
+      },
+      {
+        "id": "cat_08",
+        "consulta": "Crânio",
+        "pt": 1.0,
+        "en": 1.0,
+        "delta": 0.0
+      },
+      {
+        "id": "cat_09",
+        "consulta": "Flecha",
+        "pt": 0.5,
+        "en": 1.0,
+        "delta": 0.5
+      },
+      {
+        "id": "cat_10",
+        "consulta": "Maracá",
+        "pt": 0.976,
+        "en": 0.958,
+        "delta": -0.018
+      },
+      {
+        "id": "cat_11",
+        "consulta": "Peneira",
+        "pt": 1.0,
+        "en": 1.0,
+        "delta": 0.0
+      },
+      {
+        "id": "cat_12",
+        "consulta": "Saia",
+        "pt": 1.0,
+        "en": 1.0,
+        "delta": 0.0
+      },
+      {
+        "id": "cat_13",
+        "consulta": "Taquara",
+        "pt": 1.0,
+        "en": 1.0,
+        "delta": 0.0
+      },
+      {
+        "id": "ln_01",
+        "consulta": "instrumentos musicais utilizados em cerimônias",
+        "pt": 0.9,
+        "en": 0.776,
+        "delta": -0.124
+      },
+      {
+        "id": "ln_02",
+        "consulta": "objetos utilizados em cerimônias religiosas",
+        "pt": 0.789,
+        "en": 0.78,
+        "delta": -0.009
+      },
+      {
+        "id": "ln_03",
+        "consulta": "armas de madeira talhada usadas na retomada de território e defesa",
+        "pt": 0.895,
+        "en": 0.924,
+        "delta": 0.029
+      },
+      {
+        "id": "ln_04",
+        "consulta": "instrumentos de sopro usados por xamãs para reza e comunicação",
+        "pt": 0.475,
+        "en": 0.75,
+        "delta": 0.275
+      },
+      {
+        "id": "ln_05",
+        "consulta": "adornos de sementes e lã usados cruzados no peito para proteção",
+        "pt": 0.5,
+        "en": 0.861,
+        "delta": 0.361
+      },
+      {
+        "id": "ln_06",
+        "consulta": "utensílios domésticos trançados em fibras vegetais para alimentos ou abanar o fogo",
+        "pt": 1.0,
+        "en": 1.0,
+        "delta": 0.0
+      },
+      {
+        "id": "ln_07",
+        "consulta": "vestimentas e adornos de cabeça usados em encontros políticos e rituais",
+        "pt": 0.932,
+        "en": 0.842,
+        "delta": -0.09
+      },
+      {
+        "id": "ln_08",
+        "consulta": "chocalhos feitos de cabaça com fios de lã coloridos",
+        "pt": 1.0,
+        "en": 1.0,
+        "delta": 0.0
+      },
+      {
+        "id": "ln_09",
+        "consulta": "objeto osteológico usado para fins curativos e terapêuticos",
+        "pt": 1.0,
+        "en": 1.0,
+        "delta": 0.0
+      },
+      {
+        "id": "ln_10",
+        "consulta": "instrumento de corda única com dois arcos de madeira que se cruzam",
+        "pt": 0.75,
+        "en": 0.125,
+        "delta": -0.625
+      }
+    ]
+  },
+  "termos_indigenas": {
+    "termos": 19,
+    "ap_medio": {
+      "R1_clip": 0.1546,
+      "R1_siglip": 0.2184,
+      "R2": 0.1693,
+      "R4_text": 0.9737,
+      "bm25_r2": 0.0526,
+      "bm25_r4": 0.9692
+    }
+  },
+  "descricao_curta": [
+    [
+      "curtas (1º terço)",
+      "6–15",
+      11,
+      0.1503,
+      0.7857
+    ],
+    [
+      "médias",
+      "17–31",
+      11,
+      0.2746,
+      0.7727
+    ],
+    [
+      "longas (último terço)",
+      "31–84",
+      13,
+      0.1732,
+      0.4339
+    ]
+  ],
+  "piores_descricao_para_imagem": [
+    {
+      "item_id": "MNSEE.003.0034",
+      "categoria": "Arco de boca",
+      "palavras": 37,
+      "texto": "Feito de cedro e fibra de caraguatá, guembe pi. Decorado com ferro queimado. Instrumento de corda única, composto por dois arcos que se cruzam. Instrumento representa um casal apaixonado e os arcos o homem e uma mulher.",
+      "rank_R1_clip": 24,
+      "rank_R1_siglip": 11
+    },
+    {
+      "item_id": "MNSEE.003.0028",
+      "categoria": "Apito",
+      "palavras": 55,
+      "texto": "Feito a partir da raiz da goiaba do campo. Ele se diferencia por estar sob um \"banco\" (apyká). Junto dele está amarrado outro Minby. É um instrumento religioso e musical. Possui um cordão de algodão. É usado como reza para os xamãs. Também pode ser usado para se comunicar, identificando-se na chegada em outro território.",
+      "rank_R1_clip": 9,
+      "rank_R1_siglip": 11
+    },
+    {
+      "item_id": "MNSEE.003.0035",
+      "categoria": "Saia",
+      "palavras": 12,
+      "texto": "Algodão com detalhes laranja e amarelo. Utilizado em rituais políticos e religiosos.",
+      "rank_R1_clip": 30,
+      "rank_R1_siglip": 7
+    },
+    {
+      "item_id": "MNSEE.003.0011",
+      "categoria": "Maracá",
+      "palavras": 38,
+      "texto": "Possui um cordão colorido com fios de lã aglomerados. É atravessado por um pedaço de madeira (cedro). Se usa nos rituais religiosos para se comunicar com as famílias de outros lugares e é também uma forma de proteção.",
+      "rank_R1_clip": 6,
+      "rank_R1_siglip": 7
+    },
+    {
+      "item_id": "MNSEE.003.0032",
+      "categoria": "Cordão",
+      "palavras": 13,
+      "texto": "Cordão feito com sementes e aglomerados de lã em vermelho, branco e verde.",
+      "rank_R1_clip": 21,
+      "rank_R1_siglip": 6
+    }
+  ]
+}

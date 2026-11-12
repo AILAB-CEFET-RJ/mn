@@ -4,16 +4,31 @@
  "normalized": true,
  "count": 113,
  "failed": [],
- "versao_indexacao": "v1",
+ "versao_indexacao": "v2",
  "text_model": "BAAI/bge-m3",
  "text_dim": 1024,
  "text_pooling": "cls",
  "ultima_execucao_imagens": {
-  "novas": 113,
-  "segundos": 5.4,
-  "imagens_por_s": 20.81,
+  "modelo": "openai/clip-vit-base-patch32",
+  "dim": 512,
+  "novas": 0,
+  "segundos": 0.0,
+  "imagens_por_s": null,
   "dispositivo": "cpu",
   "batch": 32
  },
- "textos_unicos": 35
+ "textos_unicos": 35,
+ "siglip_model": "google/siglip-base-patch16-256-multilingual",
+ "siglip_dim": 768,
+ "ultima_execucao_siglip": {
+  "modelo": "google/siglip-base-patch16-256-multilingual",
+  "dim": 768,
+  "novas": 0,
+  "segundos": 0.0,
+  "imagens_por_s": null,
+  "dispositivo": "cpu",
+  "batch": 32
+ },
+ "textos_r2_unicos": 32,
+ "textos_r4_unicos": 35
 }

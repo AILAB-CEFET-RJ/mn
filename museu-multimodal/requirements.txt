@@ -7,3 +7,5 @@ qdrant-client
 fastapi
 uvicorn
 python-multipart
+sentencepiece
+protobuf
