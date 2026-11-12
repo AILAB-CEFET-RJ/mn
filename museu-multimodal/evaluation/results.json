@@ -45,7 +45,7 @@
         "mrr": 0.2154,
         "map@10": 0.1902,
         "n": 13,
-        "lat_ms_med": 15.7
+        "lat_ms_med": 14.3
       },
       "R1: Apenas Imagem — CLIP (EN)": {
         "recall@1": 0.3038,
@@ -60,7 +60,7 @@
         "mrr": 0.6731,
         "map@10": 0.6224,
         "n": 13,
-        "lat_ms_med": 16.8
+        "lat_ms_med": 15.8
       },
       "R1: Apenas Imagem — SigLIP Multi (PT)": {
         "recall@1": 0.3808,
@@ -75,7 +75,7 @@
         "mrr": 0.8654,
         "map@10": 0.7342,
         "n": 13,
-        "lat_ms_med": 40.9
+        "lat_ms_med": 38.2
       },
       "R1: Apenas Imagem — SigLIP Multi (EN)": {
         "recall@1": 0.5385,
@@ -90,7 +90,7 @@
         "mrr": 0.9231,
         "map@10": 0.8773,
         "n": 13,
-        "lat_ms_med": 40.5
+        "lat_ms_med": 38.9
       },
       "R2: Apenas Descrição Física — BGE-M3 (PT)": {
         "recall@1": 0.3654,
@@ -105,7 +105,7 @@
         "mrr": 0.5841,
         "map@10": 0.4802,
         "n": 13,
-        "lat_ms_med": 62.8
+        "lat_ms_med": 62.0
       },
       "R3: Imagem (CLIP) + Descrição (R2)": {
         "recall@1": 0.1154,
@@ -113,14 +113,14 @@
         "ndcg@1": 0.1538,
         "recall@5": 0.3526,
         "precision@5": 0.1231,
-        "ndcg@5": 0.2737,
+        "ndcg@5": 0.2716,
         "recall@10": 0.5833,
         "precision@10": 0.1231,
-        "ndcg@10": 0.3687,
+        "ndcg@10": 0.3666,
         "mrr": 0.3193,
-        "map@10": 0.2652,
+        "map@10": 0.2623,
         "n": 13,
-        "lat_ms_med": 75.8
+        "lat_ms_med": 72.5
       },
       "R3: Imagem (SigLIP) + Descrição (R2)": {
         "recall@1": 0.3269,
@@ -128,14 +128,14 @@
         "ndcg@1": 0.5385,
         "recall@5": 0.7372,
         "precision@5": 0.3231,
-        "ndcg@5": 0.6694,
+        "ndcg@5": 0.6733,
         "recall@10": 0.8769,
         "precision@10": 0.2154,
-        "ndcg@10": 0.7312,
-        "mrr": 0.6969,
-        "map@10": 0.646,
+        "ndcg@10": 0.7352,
+        "mrr": 0.7097,
+        "map@10": 0.6492,
         "n": 13,
-        "lat_ms_med": 105.9
+        "lat_ms_med": 97.1
       },
       "R4 (textual): Desc + Metadados — BGE-M3": {
         "recall@1": 0.5731,
@@ -150,7 +150,7 @@
         "mrr": 1.0,
         "map@10": 0.9872,
         "n": 13,
-        "lat_ms_med": 61.7
+        "lat_ms_med": 58.8
       },
       "R4 (multimodal): CLIP + Desc + Metadados": {
         "recall@1": 0.2436,
@@ -165,7 +165,7 @@
         "mrr": 0.5892,
         "map@10": 0.4852,
         "n": 13,
-        "lat_ms_med": 75.3
+        "lat_ms_med": 72.8
       },
       "R4 (multimodal): SigLIP + Desc + Metadados": {
         "recall@1": 0.4962,
@@ -180,7 +180,7 @@
         "mrr": 0.9615,
         "map@10": 0.9366,
         "n": 13,
-        "lat_ms_med": 104.3
+        "lat_ms_med": 97.1
       }
     },
     "Tarefa 2: Consultas em Linguagem Natural (n=10)": {
@@ -227,7 +227,7 @@
         "mrr": 0.635,
         "map@10": 0.3826,
         "n": 10,
-        "lat_ms_med": 18.9
+        "lat_ms_med": 18.8
       },
       "R1: Apenas Imagem — CLIP (EN)": {
         "recall@1": 0.2145,
@@ -242,7 +242,7 @@
         "mrr": 0.7917,
         "map@10": 0.6083,
         "n": 10,
-        "lat_ms_med": 17.4
+        "lat_ms_med": 16.6
       },
       "R1: Apenas Imagem — SigLIP Multi (PT)": {
         "recall@1": 0.3061,
@@ -257,7 +257,7 @@
         "mrr": 1.0,
         "map@10": 0.8241,
         "n": 10,
-        "lat_ms_med": 41.9
+        "lat_ms_med": 44.0
       },
       "R1: Apenas Imagem — SigLIP Multi (EN)": {
         "recall@1": 0.2561,
@@ -272,7 +272,7 @@
         "mrr": 0.925,
         "map@10": 0.8058,
         "n": 10,
-        "lat_ms_med": 41.7
+        "lat_ms_med": 41.2
       },
       "R2: Apenas Descrição Física — BGE-M3 (PT)": {
         "recall@1": 0.2561,
@@ -287,7 +287,7 @@
         "mrr": 0.95,
         "map@10": 0.7916,
         "n": 10,
-        "lat_ms_med": 88.3
+        "lat_ms_med": 83.1
       },
       "R3: Imagem (CLIP) + Descrição (R2)": {
         "recall@1": 0.2311,
@@ -298,26 +298,26 @@
         "ndcg@5": 0.6472,
         "recall@10": 0.6352,
         "precision@10": 0.37,
-        "ndcg@10": 0.6744,
+        "ndcg@10": 0.6733,
         "mrr": 0.8433,
-        "map@10": 0.5448,
+        "map@10": 0.543,
         "n": 10,
-        "lat_ms_med": 97.8
+        "lat_ms_med": 126.7
       },
       "R3: Imagem (SigLIP) + Descrição (R2)": {
         "recall@1": 0.3061,
         "precision@1": 1.0,
         "ndcg@1": 1.0,
-        "recall@5": 0.6998,
-        "precision@5": 0.68,
-        "ndcg@5": 0.9306,
+        "recall@5": 0.7164,
+        "precision@5": 0.7,
+        "ndcg@5": 0.9437,
         "recall@10": 0.8624,
         "precision@10": 0.49,
-        "ndcg@10": 0.9329,
+        "ndcg@10": 0.9345,
         "mrr": 1.0,
-        "map@10": 0.8765,
+        "map@10": 0.8816,
         "n": 10,
-        "lat_ms_med": 121.9
+        "lat_ms_med": 141.5
       },
       "R4 (textual): Desc + Metadados — BGE-M3": {
         "recall@1": 0.3061,
@@ -332,7 +332,7 @@
         "mrr": 1.0,
         "map@10": 0.8788,
         "n": 10,
-        "lat_ms_med": 83.7
+        "lat_ms_med": 114.1
       },
       "R4 (multimodal): CLIP + Desc + Metadados": {
         "recall@1": 0.2811,
@@ -347,7 +347,7 @@
         "mrr": 0.9,
         "map@10": 0.6204,
         "n": 10,
-        "lat_ms_med": 97.8
+        "lat_ms_med": 133.7
       },
       "R4 (multimodal): SigLIP + Desc + Metadados": {
         "recall@1": 0.3061,
@@ -362,7 +362,7 @@
         "mrr": 1.0,
         "map@10": 0.9044,
         "n": 10,
-        "lat_ms_med": 120.5
+        "lat_ms_med": 136.4
       }
     },
     "Consolidado Texto (Todas as 23 consultas)": {
@@ -394,7 +394,7 @@
         "mrr": 0.8841,
         "map@10": 0.8833,
         "n": 23,
-        "lat_ms_med": 0.3
+        "lat_ms_med": 0.2
       },
       "R1: Apenas Imagem — CLIP (PT)": {
         "recall@1": 0.1453,
@@ -409,7 +409,7 @@
         "mrr": 0.3978,
         "map@10": 0.2738,
         "n": 23,
-        "lat_ms_med": 16.5
+        "lat_ms_med": 15.4
       },
       "R1: Apenas Imagem — CLIP (EN)": {
         "recall@1": 0.265,
@@ -424,7 +424,7 @@
         "mrr": 0.7246,
         "map@10": 0.6163,
         "n": 23,
-        "lat_ms_med": 15.0
+        "lat_ms_med": 15.1
       },
       "R1: Apenas Imagem — SigLIP Multi (PT)": {
         "recall@1": 0.3483,
@@ -439,7 +439,7 @@
         "mrr": 0.9239,
         "map@10": 0.7733,
         "n": 23,
-        "lat_ms_med": 39.7
+        "lat_ms_med": 38.1
       },
       "R1: Apenas Imagem — SigLIP Multi (EN)": {
         "recall@1": 0.4157,
@@ -454,7 +454,7 @@
         "mrr": 0.9239,
         "map@10": 0.8462,
         "n": 23,
-        "lat_ms_med": 40.1
+        "lat_ms_med": 39.3
       },
       "R2: Apenas Descrição Física — BGE-M3 (PT)": {
         "recall@1": 0.3179,
@@ -469,7 +469,7 @@
         "mrr": 0.7432,
         "map@10": 0.6156,
         "n": 23,
-        "lat_ms_med": 76.2
+        "lat_ms_med": 73.5
       },
       "R3: Imagem (CLIP) + Descrição (R2)": {
         "recall@1": 0.1657,
@@ -477,29 +477,29 @@
         "ndcg@1": 0.4348,
         "recall@5": 0.3899,
         "precision@5": 0.2696,
-        "ndcg@5": 0.4361,
+        "ndcg@5": 0.4349,
         "recall@10": 0.6059,
         "precision@10": 0.2304,
-        "ndcg@10": 0.5016,
+        "ndcg@10": 0.4999,
         "mrr": 0.5472,
-        "map@10": 0.3867,
+        "map@10": 0.3843,
         "n": 23,
-        "lat_ms_med": 88.5
+        "lat_ms_med": 87.7
       },
       "R3: Imagem (SigLIP) + Descrição (R2)": {
         "recall@1": 0.3179,
         "precision@1": 0.7391,
         "ndcg@1": 0.7391,
-        "recall@5": 0.7209,
-        "precision@5": 0.4783,
-        "ndcg@5": 0.783,
+        "recall@5": 0.7282,
+        "precision@5": 0.487,
+        "ndcg@5": 0.7909,
         "recall@10": 0.8706,
         "precision@10": 0.3348,
-        "ndcg@10": 0.8189,
-        "mrr": 0.8287,
-        "map@10": 0.7462,
+        "ndcg@10": 0.8218,
+        "mrr": 0.8359,
+        "map@10": 0.7502,
         "n": 23,
-        "lat_ms_med": 114.2
+        "lat_ms_med": 109.8
       },
       "R4 (textual): Desc + Metadados — BGE-M3": {
         "recall@1": 0.457,
@@ -514,7 +514,7 @@
         "mrr": 1.0,
         "map@10": 0.9401,
         "n": 23,
-        "lat_ms_med": 74.2
+        "lat_ms_med": 73.0
       },
       "R4 (multimodal): CLIP + Desc + Metadados": {
         "recall@1": 0.2599,
@@ -529,7 +529,7 @@
         "mrr": 0.7243,
         "map@10": 0.544,
         "n": 23,
-        "lat_ms_med": 87.5
+        "lat_ms_med": 84.6
       },
       "R4 (multimodal): SigLIP + Desc + Metadados": {
         "recall@1": 0.4135,
@@ -544,7 +544,7 @@
         "mrr": 0.9783,
         "map@10": 0.9226,
         "n": 23,
-        "lat_ms_med": 120.2
+        "lat_ms_med": 108.5
       }
     },
     "Tarefa 3: Busca Imagem→Imagem (n=30)": {
@@ -561,7 +561,7 @@
         "mrr": 0.8806,
         "map@10": 0.7406,
         "n": 30,
-        "lat_ms_med": 244.6
+        "lat_ms_med": 386.3
       },
       "R1: Imagem→Imagem — SigLIP (leave-one-out)": {
         "recall@1": 0.3067,
@@ -576,7 +576,7 @@
         "mrr": 0.8889,
         "map@10": 0.8021,
         "n": 30,
-        "lat_ms_med": 313.6
+        "lat_ms_med": 455.1
       }
     }
   }

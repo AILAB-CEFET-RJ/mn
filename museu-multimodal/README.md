@@ -6,39 +6,53 @@ Sistema de busca multimodal (texto e imagem) sobre o acervo etnográfico do Muse
 
 ## 1. Ambiente Local (Python / `.venv`)
 
-A partir da raiz do repositório (`/home/lucas/Projetos/mn`) ou de `museu-multimodal/`:
+Crie o `.venv` na raiz (`/home/lucas/Projetos/mn`) com **Python 3.12**:
 
 ```bash
-python -m venv .venv
+cd /home/lucas/Projetos/mn
+uv venv --python 3.12 --seed .venv
 source .venv/bin/activate
-
-# PyTorch (ROCm para GPU AMD RX 6600 ou CPU):
-pip install torch --index-url https://download.pytorch.org/whl/rocm6.2
-# (Alternativa somente CPU: pip install torch --index-url https://download.pytorch.org/whl/cpu)
-
-pip install -r museu-multimodal/requirements.txt
+uv pip install torch -r museu-multimodal/requirements.txt
 ```
 
 ---
 
-## 2. Pipeline Completo (Ingestão, Indexação e Avaliação)
+## 2. Pipeline: Preparação da Aplicação vs. Experimentos do TCC
 
-Todos os comandos abaixo são executados dentro de `museu-multimodal/`:
+Todos os comandos abaixo são executados dentro de `museu-multimodal/` (e são **incrementais/idempotentes**):
+
+### 2.1. Apenas o necessário para subir a Aplicação (Ingestão + Indexação)
+Roda somente a extração dos embeddings e a indexação no Qdrant, sem executar as baterias de avaliação do TCC:
 
 ```bash
 cd museu-multimodal
-./run_pipeline.sh
+./run_pipeline.sh app
 ```
 
-O script `run_pipeline.sh` é **incremental e idempotente** e executa em sequência:
-1. `python ingestion/eda_report.py` — Análise exploratória da base (`data/processed/eda_report.md` e `.json`).
-2. `python ingestion/generate_image_embeddings.py` — Embeddings visuais CLIP (512-d) e SigLIP (768-d) com checkpoint atômico (`LIMIT=N` para amostra; `DEVICE=cpu` para forçar CPU; `SKIP_SIGLIP=1` para pular SigLIP).
-3. `python ingestion/generate_text_embeddings.py` — Embeddings textuais BGE-M3 (1024-d) para `R2` (descrição física pura) e `R4` (descrição + metadados) com cache por SHA-1.
-4. `FORCE=1 python ingestion/index_qdrant.py` — Indexação idempotente no Qdrant (usa servidor `:6333` se ativo, ou persistência local automática em `data/qdrant_local`).
-5. `python evaluation/build_queries.py` — Gera o conjunto de consultas de avaliação (`evaluation/queries.json`).
-6. `python evaluation/evaluate.py` — Calcula Recall@K, Precision@K, nDCG@K, MRR, MAP@10 e latência (`evaluation/results.json`).
-7. `python evaluation/cross_modal.py` — Avaliação cruzada descrição→imagem e imagem→texto (`evaluation/cross_modal_results.json`).
-8. `python evaluation/error_analysis.py` — Relatório quantitativo de análise de erros (`evaluation/error_analysis.md` e `.json`).
+Ou rodando cada etapa individualmente:
+1. `python ingestion/generate_image_embeddings.py` — Gera embeddings visuais CLIP (512-d) e SigLIP (768-d) com checkpoint atômico (`LIMIT=N` para amostra; `DEVICE=cpu` para forçar CPU; `SKIP_SIGLIP=1` para pular SigLIP).
+2. `python ingestion/generate_text_embeddings.py` — Gera embeddings textuais BGE-M3 (1024-d) para `R2` (descrição física pura) e `R4` (descrição + metadados) com cache por SHA-1.
+3. `FORCE=1 python ingestion/index_qdrant.py` — Indexa os vetores no Qdrant (usa servidor `:6333` se ativo, ou persistência local automática em `data/qdrant_local`).
+
+---
+
+### 2.2. Experimentos, Métricas e Relatórios do TCC
+Executa a análise exploratória (EDA), reconstrói as consultas de teste e calcula todas as tabelas de avaliação e análise de erros (requer que a base já esteja indexada pelo passo 2.1):
+
+```bash
+cd museu-multimodal
+./run_pipeline.sh tcc
+```
+
+Ou rodando cada experimento individualmente:
+1. `python ingestion/eda_report.py` — Etapa 1 (Seção 7.1): Análise exploratória da base (`data/processed/eda_report.md` e `.json`).
+2. `python evaluation/build_queries.py` — Etapa 3 (Seção 7.3): Gera o conjunto de consultas de avaliação (`evaluation/queries.json`).
+3. `python evaluation/evaluate.py` — Etapa 4 (Seção 7.4): Calcula Recall@K, Precision@K, nDCG@K, MRR, MAP@10 e latência (`evaluation/results.json`).
+4. `python evaluation/cross_modal.py` — Tarefas cruzadas descrição→imagem e imagem→texto (`evaluation/cross_modal_results.json`).
+5. `python evaluation/error_analysis.py` — Etapa 5 (Seção 7.5): Relatório quantitativo de análise de erros (`evaluation/error_analysis.md` e `.json`).
+6. `python -m unittest discover -s tests -v` — Suíte de testes automatizados (unitários e de integração).
+
+> **Dica:** Para rodar tudo de uma vez (2.1 + 2.2 em sequência), basta executar `./run_pipeline.sh` sem argumentos.
 
 ---
 

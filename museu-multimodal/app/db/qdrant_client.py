@@ -1,4 +1,5 @@
 """Fábrica de cliente Qdrant com suporte a servidor Docker (:6333) e fallback local em disco."""
+import atexit
 import logging
 import os
 import socket
@@ -59,5 +60,8 @@ def close_qdrant_client() -> None:
         except Exception:
             pass
         _CLIENT = None
+
+
+atexit.register(close_qdrant_client)
 
 

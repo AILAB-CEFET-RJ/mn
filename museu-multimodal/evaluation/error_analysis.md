@@ -37,19 +37,19 @@ Cobertura = fração dos objetos da categoria cujo `catalogo_descrição` conté
 
 | Categoria | Objetos | Cobertura R2 | bm25_r2 | R2 | R1_siglip | R3_siglip | R4_text |
 |---|---|---|---|---|---|---|---|
-| Abanador | 1 | 0 | 0.0 | 0.143 | 0.25 | 0.5 | 1.0 |
-| Apito | 4 | 0 | 0.0 | 0.025 | 0.85 | 0.267 | 1.0 |
-| Borduna | 4 | 0 | 0.0 | 0.0 | 0.321 | 0.062 | 1.0 |
-| Cocar | 5 | 0 | 0.0 | 0.0 | 0.714 | 0.073 | 1.0 |
-| Maracá | 6 | 0 | 0.0 | 0.5 | 0.976 | 0.852 | 1.0 |
+| Abanador | 1 | 0.0 | 0.0 | 0.143 | 0.25 | 0.5 | 1.0 |
+| Apito | 4 | 0.0 | 0.0 | 0.025 | 0.85 | 0.308 | 1.0 |
+| Borduna | 4 | 0.0 | 0.0 | 0.0 | 0.321 | 0.062 | 1.0 |
+| Cocar | 5 | 0.0 | 0.0 | 0.0 | 0.714 | 0.073 | 1.0 |
+| Maracá | 6 | 0.0 | 0.0 | 0.5 | 0.976 | 0.852 | 1.0 |
 | Saia | 3 | 0.3333 | 0.333 | 0.4 | 1.0 | 0.81 | 1.0 |
 | Arco de boca | 2 | 0.5 | 1.0 | 0.05 | 0.7 | 0.333 | 1.0 |
-| Arco | 2 | 1 | 0.5 | 0.125 | 0.583 | 1.0 | 0.833 |
-| Cordão | 4 | 1 | 1.0 | 1.0 | 0.65 | 1.0 | 1.0 |
-| Crânio | 1 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
-| Flecha | 1 | 1 | 0.5 | 1.0 | 0.5 | 0.5 | 1.0 |
-| Peneira | 1 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
-| Taquara | 1 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
+| Arco | 2 | 1.0 | 0.5 | 0.125 | 0.583 | 1.0 | 0.833 |
+| Cordão | 4 | 1.0 | 1.0 | 1.0 | 0.65 | 1.0 | 1.0 |
+| Crânio | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
+| Flecha | 1 | 1.0 | 0.5 | 1.0 | 0.5 | 0.5 | 1.0 |
+| Peneira | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
+| Taquara | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
 AP@10 médio de R2: 0.178 nas 6 categorias com cobertura < 50% contra 0.7393 nas 7 com cobertura ≥ 50%. Para BM25-R2: 0.0555 contra 0.8571.
 Ressalva: o rótulo de categoria também faz parte do texto de R4, então a vantagem de R4 nesta tabela é em parte construída (ver notas_tcc.md).

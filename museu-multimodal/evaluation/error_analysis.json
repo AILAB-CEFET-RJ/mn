@@ -115,7 +115,7 @@
     {
       "categoria": "Abanador",
       "objetos": 1,
-      "cobertura_termo_R2": 0,
+      "cobertura_termo_R2": 0.0,
       "bm25_r2": 0.0,
       "R2": 0.143,
       "R1_siglip": 0.25,
@@ -125,17 +125,17 @@
     {
       "categoria": "Apito",
       "objetos": 4,
-      "cobertura_termo_R2": 0,
+      "cobertura_termo_R2": 0.0,
       "bm25_r2": 0.0,
       "R2": 0.025,
       "R1_siglip": 0.85,
-      "R3_siglip": 0.267,
+      "R3_siglip": 0.308,
       "R4_text": 1.0
     },
     {
       "categoria": "Arco",
       "objetos": 2,
-      "cobertura_termo_R2": 1,
+      "cobertura_termo_R2": 1.0,
       "bm25_r2": 0.5,
       "R2": 0.125,
       "R1_siglip": 0.583,
@@ -155,7 +155,7 @@
     {
       "categoria": "Borduna",
       "objetos": 4,
-      "cobertura_termo_R2": 0,
+      "cobertura_termo_R2": 0.0,
       "bm25_r2": 0.0,
       "R2": 0.0,
       "R1_siglip": 0.321,
@@ -165,7 +165,7 @@
     {
       "categoria": "Cocar",
       "objetos": 5,
-      "cobertura_termo_R2": 0,
+      "cobertura_termo_R2": 0.0,
       "bm25_r2": 0.0,
       "R2": 0.0,
       "R1_siglip": 0.714,
@@ -175,7 +175,7 @@
     {
       "categoria": "Cordão",
       "objetos": 4,
-      "cobertura_termo_R2": 1,
+      "cobertura_termo_R2": 1.0,
       "bm25_r2": 1.0,
       "R2": 1.0,
       "R1_siglip": 0.65,
@@ -185,7 +185,7 @@
     {
       "categoria": "Crânio",
       "objetos": 1,
-      "cobertura_termo_R2": 1,
+      "cobertura_termo_R2": 1.0,
       "bm25_r2": 1.0,
       "R2": 1.0,
       "R1_siglip": 1.0,
@@ -195,7 +195,7 @@
     {
       "categoria": "Flecha",
       "objetos": 1,
-      "cobertura_termo_R2": 1,
+      "cobertura_termo_R2": 1.0,
       "bm25_r2": 0.5,
       "R2": 1.0,
       "R1_siglip": 0.5,
@@ -205,7 +205,7 @@
     {
       "categoria": "Maracá",
       "objetos": 6,
-      "cobertura_termo_R2": 0,
+      "cobertura_termo_R2": 0.0,
       "bm25_r2": 0.0,
       "R2": 0.5,
       "R1_siglip": 0.976,
@@ -215,7 +215,7 @@
     {
       "categoria": "Peneira",
       "objetos": 1,
-      "cobertura_termo_R2": 1,
+      "cobertura_termo_R2": 1.0,
       "bm25_r2": 1.0,
       "R2": 1.0,
       "R1_siglip": 1.0,
@@ -235,7 +235,7 @@
     {
       "categoria": "Taquara",
       "objetos": 1,
-      "cobertura_termo_R2": 1,
+      "cobertura_termo_R2": 1.0,
       "bm25_r2": 1.0,
       "R2": 1.0,
       "R1_siglip": 1.0,
